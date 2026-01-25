@@ -11,11 +11,11 @@ This repository contains experiments with the [Tinker](https://thinkingmachines.
 | Recipe | Description | Status |
 |--------|-------------|--------|
 | Math RL (Arithmetic) | Train model to add numbers | ✅ Complete - 100% accuracy |
-| Chat SL | Supervised fine-tuning on NoRobots | ✅ Running |
-| Preference Shorter | Train for concise responses | ✅ Running |
-| Distillation Off-Policy | SFT on OpenThoughts3 | ✅ Running |
-| Distillation On-Policy | KL minimization to teacher | ✅ Running |
-| Math RL (GSM8K) | Word problem solving | ✅ Running |
+| Chat SL | Supervised fine-tuning on NoRobots | ✅ Complete |
+| Preference Shorter | Train for concise responses | ✅ Complete |
+| Distillation Off-Policy | SFT on OpenThoughts3 | ✅ Complete |
+| Distillation On-Policy | KL minimization to teacher | ✅ Complete |
+| Math RL (GSM8K) | Word problem solving | ✅ Complete |
 
 ## Repository Structure
 
