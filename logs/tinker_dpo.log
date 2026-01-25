@@ -1,0 +1,53 @@
+tinker_cookbook.utils.ml_log:475 [[92mINFO[0m] Logging to: /tmp/tinker-examples/dpo/hhh-Qwen-Qwen3-0.6B-0.0001lr-32batch-2026-01-25-04-05
+tinker.lib.public_interfaces.service_client:66 [[92mINFO[0m] ServiceClient initialized for session 0547fd11-763e-52c9-8561-e49966bf8de3
+tinker.lib.telemetry:204 [[92mINFO[0m] Exception logged for session ID: 0547fd11-763e-52c9-8561-e49966bf8de3
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/recipes/preference/dpo/train.py", line 125, in <module>
+    chz.nested_entrypoint(cli_main)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/chz/blueprint/_entrypoint.py", line 39, in inner
+    return fn(*args, **kwargs)
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/chz/blueprint/_entrypoint.py", line 109, in nested_entrypoint
+    return main(value)
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/recipes/preference/dpo/train.py", line 121, in cli_main
+    train_dpo.main(config)
+    ~~~~~~~~~~~~~~^^^^^^^^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/preference/train_dpo.py", line 337, in main
+    training_client, reference_client = create_dpo_clients(config, resume_info)
+                                        ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/preference/train_dpo.py", line 90, in create_dpo_clients
+    training_client = service_client.create_lora_training_client(
+        base_model=config.model_name, rank=config.lora_rank
+    )
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/sync_only.py", line 75, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/telemetry.py", line 394, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/public_interfaces/service_client.py", line 199, in create_lora_training_client
+    ).result()
+      ~~~~~~^^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/public_interfaces/api_future.py", line 127, in result
+    return self._future.result(timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/public_interfaces/service_client.py", line 135, in _create_lora_training_client_async
+    future = await client.models.create(request=request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/resources/models.py", line 61, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/_base_client.py", line 1230, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/_base_client.py", line 1031, in request
+    raise self._make_status_error_from_response(err.response) from None
+tinker.BadRequestError: Error code: 400 - {'detail': 'base_model Qwen/Qwen3-0.6B is not supported'}

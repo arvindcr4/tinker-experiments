@@ -1,0 +1,57 @@
+tinker_cookbook.utils.ml_log:475 [[92mINFO[0m] Logging to: /tmp/tinker-examples/verifiers_rl/verifiers_rl_meta-llama-Llama-3.2-1B_gp32_gs4_lr1e-05_rank32_2026-01-25-04-09
+tinker_cookbook.checkpoint_utils:21 [[92mINFO[0m] No checkpoints found at /tmp/tinker-examples/verifiers_rl/verifiers_rl_meta-llama-Llama-3.2-1B_gp32_gs4_lr1e-05_rank32_2026-01-25-04-09/checkpoints.jsonl
+tinker_cookbook.checkpoint_utils:52 [[92mINFO[0m] No checkpoints found with key state_path in /tmp/tinker-examples/verifiers_rl/verifiers_rl_meta-llama-Llama-3.2-1B_gp32_gs4_lr1e-05_rank32_2026-01-25-04-09
+tinker.lib.public_interfaces.service_client:66 [[92mINFO[0m] ServiceClient initialized for session 592c9a3d-ad36-545f-a9a4-9b2ebb1acd1b
+tinker.lib.public_interfaces.service_client:149 [[92mINFO[0m] TrainingClient initialized for model 592c9a3d-ad36-545f-a9a4-9b2ebb1acd1b:train:0
+tinker.lib.sync_only:70 [[93mWARNING[0m] Synchronous method 'Telemetry.log_fatal_exception_sync()' called from async context. Use 'Telemetry.log_fatal_exception_sync_async()' instead.
+Calling sync methods from async code can cause deadlocks and performance issues.
+tinker.lib.sync_only:71 [[93mWARNING[0m] ===== Stack for calling sync from async ===== 
+['  File "<frozen runpy>", line 198, in _run_module_as_main\n', '  File "<frozen runpy>", line 88, in _run_code\n', '  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/recipes/verifiers_rl/train.py", line 149, in <module>\n    asyncio.run(cli_main(cli_config, None))\n', '  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run\n    return runner.run(main)\n', '  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run\n    return self._loop.run_until_complete(task)\n', '  File "/usr/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete\n    self.run_forever()\n', '  File "/usr/lib/python3.13/asyncio/base_events.py", line 683, in run_forever\n    self._run_once()\n', '  File "/usr/lib/python3.13/asyncio/base_events.py", line 2050, in _run_once\n    handle._run()\n', '  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run\n    self._context.run(self._callback, *self._args)\n', '  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/recipes/verifiers_rl/train.py", line 144, in cli_main\n    await train.main(cfg)\n', '  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/utils/trace.py", line 332, in async_wrapper\n    return await func(*args, **kwargs)\n', '  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/rl/train.py", line 1081, in main\n    tokenizer = training_client.get_tokenizer()\n', '  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/telemetry.py", line 393, in _wrapper\n    with telemetry.capture_exceptions(fatal=fatal, severity=severity):\n', '  File "/usr/lib/python3.13/contextlib.py", line 162, in __exit__\n    self.gen.throw(value)\n', '  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/telemetry.py", line 301, in capture_exceptions\n    _ = self.log_fatal_exception_sync(e, severity)\n', '  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/sync_only.py", line 72, in wrapper\n    f"===== Stack for calling sync from async ===== \\n{traceback.format_stack()}\\n ==========="\n']
+ ===========
+tinker.lib.telemetry:204 [[92mINFO[0m] Exception logged for session ID: 592c9a3d-ad36-545f-a9a4-9b2ebb1acd1b
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/recipes/verifiers_rl/train.py", line 149, in <module>
+    asyncio.run(cli_main(cli_config, None))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/recipes/verifiers_rl/train.py", line 144, in cli_main
+    await train.main(cfg)
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/utils/trace.py", line 332, in async_wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker_cookbook/rl/train.py", line 1081, in main
+    tokenizer = training_client.get_tokenizer()
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/telemetry.py", line 394, in _wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/public_interfaces/training_client.py", line 752, in get_tokenizer
+    return _get_tokenizer(self._guaranteed_model_id(), self.holder)
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/public_interfaces/training_client.py", line 877, in _get_tokenizer
+    return _load_tokenizer_from_model_info(model_name, info.model_data.tokenizer_id)
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/tinker/lib/public_interfaces/sampling_client.py", line 371, in _load_tokenizer_from_model_info
+    from transformers.models.auto.tokenization_auto import AutoTokenizer
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/transformers/__init__.py", line 27, in <module>
+    from . import dependency_versions_check
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/transformers/dependency_versions_check.py", line 57, in <module>
+    require_version_core(deps[pkg])
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/transformers/utils/versions.py", line 117, in require_version_core
+    return require_version(requirement, hint)
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/transformers/utils/versions.py", line 111, in require_version
+    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/tinker-env/lib/python3.13/site-packages/transformers/utils/versions.py", line 44, in _compare_versions
+    raise ImportError(
+        f"{requirement} is required for a normal functioning of this module, but found {pkg}=={got_ver}.{hint}"
+    )
+ImportError: huggingface-hub>=0.34.0,<1.0 is required for a normal functioning of this module, but found huggingface-hub==1.3.3.
+Try: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main

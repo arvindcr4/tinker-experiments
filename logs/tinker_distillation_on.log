@@ -1,0 +1,2224 @@
+tinker_cookbook.utils.ml_log:475 [[92mINFO[0m] Logging to: /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04
+tinker_cookbook.checkpoint_utils:21 [[92mINFO[0m] No checkpoints found at /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/checkpoints.jsonl
+tinker_cookbook.checkpoint_utils:52 [[92mINFO[0m] No checkpoints found with key state_path in /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04
+tinker.lib.public_interfaces.service_client:66 [[92mINFO[0m] ServiceClient initialized for session f73748ae-b754-5c1a-9369-e2bb08513af0
+tinker.lib.public_interfaces.service_client:149 [[92mINFO[0m] TrainingClient initialized for model f73748ae-b754-5c1a-9369-e2bb08513af0:train:0
+Generating train split:   0%|          | 0/939343 [00:00<?, ? examples/s]Generating train split:   1%|          | 9000/939343 [00:00<00:11, 81506.45 examples/s]Generating train split:   3%|▎         | 30000/939343 [00:00<00:06, 150992.70 examples/s]Generating train split:   6%|▌         | 57000/939343 [00:00<00:05, 154558.35 examples/s]Generating train split:   9%|▊         | 81000/939343 [00:00<00:04, 180049.55 examples/s]Generating train split:  11%|█         | 104000/939343 [00:00<00:04, 187314.14 examples/s]Generating train split:  13%|█▎        | 124000/939343 [00:01<00:12, 64075.88 examples/s] Generating train split:  15%|█▍        | 140000/939343 [00:01<00:17, 46476.86 examples/s]Generating train split:  16%|█▌        | 151000/939343 [00:02<00:19, 40288.82 examples/s]Generating train split:  17%|█▋        | 159558/939343 [00:02<00:21, 36018.72 examples/s]Generating train split:  18%|█▊        | 167558/939343 [00:03<00:23, 33221.01 examples/s]Generating train split:  18%|█▊        | 172558/939343 [00:03<00:23, 31984.12 examples/s]Generating train split:  19%|█▉        | 178558/939343 [00:03<00:24, 31081.10 examples/s]Generating train split:  19%|█▉        | 182558/939343 [00:03<00:23, 31946.50 examples/s]Generating train split:  20%|█▉        | 187558/939343 [00:03<00:24, 31020.71 examples/s]Generating train split:  20%|██        | 192558/939343 [00:03<00:25, 29429.31 examples/s]Generating train split:  21%|██        | 198558/939343 [00:04<00:25, 29449.18 examples/s]Generating train split:  22%|██▏       | 203558/939343 [00:04<00:26, 28138.69 examples/s]Generating train split:  22%|██▏       | 208558/939343 [00:04<00:23, 31325.44 examples/s]Generating train split:  23%|██▎       | 217558/939343 [00:04<00:17, 40130.20 examples/s]Generating train split:  24%|██▍       | 227558/939343 [00:04<00:13, 51278.69 examples/s]Generating train split:  25%|██▌       | 235558/939343 [00:04<00:12, 56115.69 examples/s]Generating train split:  26%|██▌       | 245558/939343 [00:04<00:10, 64608.13 examples/s]Generating train split:  27%|██▋       | 253558/939343 [00:05<00:10, 63979.67 examples/s]Generating train split:  28%|██▊       | 263558/939343 [00:05<00:09, 71137.54 examples/s]Generating train split:  29%|██▉       | 271558/939343 [00:05<00:09, 69181.66 examples/s]Generating train split:  30%|███       | 283558/939343 [00:05<00:08, 78836.64 examples/s]Generating train split:  31%|███▏      | 295558/939343 [00:05<00:08, 78584.09 examples/s]Generating train split:  33%|███▎      | 306558/939343 [00:05<00:07, 84372.86 examples/s]Generating train split:  34%|███▍      | 320115/939343 [00:05<00:08, 75240.36 examples/s]Generating train split:  35%|███▌      | 330115/939343 [00:05<00:07, 79965.10 examples/s]Generating train split:  36%|███▌      | 340115/939343 [00:06<00:07, 82079.89 examples/s]Generating train split:  37%|███▋      | 349115/939343 [00:06<00:07, 79969.64 examples/s]Generating train split:  39%|███▉      | 368115/939343 [00:06<00:05, 105417.51 examples/s]Generating train split:  41%|████      | 383115/939343 [00:06<00:04, 114926.76 examples/s]Generating train split:  43%|████▎     | 408115/939343 [00:06<00:03, 149537.15 examples/s]Generating train split:  48%|████▊     | 450115/939343 [00:06<00:02, 216228.97 examples/s]Generating train split:  51%|█████     | 479672/939343 [00:06<00:02, 192813.75 examples/s]Generating train split:  54%|█████▎    | 502672/939343 [00:06<00:02, 178634.99 examples/s]Generating train split:  56%|█████▌    | 526672/939343 [00:07<00:02, 169878.31 examples/s]Generating train split:  59%|█████▊    | 550672/939343 [00:07<00:02, 159305.83 examples/s]Generating train split:  61%|██████    | 570672/939343 [00:07<00:02, 159041.40 examples/s]Generating train split:  63%|██████▎   | 589672/939343 [00:07<00:02, 162188.94 examples/s]Generating train split:  65%|██████▌   | 610672/939343 [00:07<00:02, 146597.87 examples/s]Generating train split:  67%|██████▋   | 627229/939343 [00:07<00:02, 140731.25 examples/s]Generating train split:  69%|██████▊   | 645229/939343 [00:07<00:02, 145886.24 examples/s]Generating train split:  70%|███████   | 662229/939343 [00:08<00:01, 144866.62 examples/s]Generating train split:  72%|███████▏  | 678229/939343 [00:08<00:01, 147156.76 examples/s]Generating train split:  75%|███████▍  | 700229/939343 [00:08<00:01, 144054.86 examples/s]Generating train split:  78%|███████▊  | 730229/939343 [00:08<00:01, 159881.88 examples/s]Generating train split:  80%|████████  | 753229/939343 [00:08<00:01, 174830.66 examples/s]Generating train split:  82%|████████▏ | 774229/939343 [00:08<00:00, 180038.32 examples/s]Generating train split:  85%|████████▌ | 799786/939343 [00:08<00:00, 198571.96 examples/s]Generating train split:  88%|████████▊ | 825786/939343 [00:08<00:00, 209337.92 examples/s]Generating train split:  91%|█████████▏| 858786/939343 [00:09<00:00, 185166.64 examples/s]Generating train split:  94%|█████████▍| 885786/939343 [00:09<00:00, 202174.73 examples/s]Generating train split:  97%|█████████▋| 914786/939343 [00:09<00:00, 222022.68 examples/s]Generating train split: 100%|██████████| 939343/939343 [00:09<00:00, 99473.77 examples/s] 
+tinker_cookbook.distillation.train_on_policy:422 [[92mINFO[0m] Created teacher sampling client for Qwen/Qwen3-8B (checkpoint: None)
+tinker_cookbook.distillation.train_on_policy:430 [[92mINFO[0m] Will train on 29354 batches
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 1.89 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting run_evals
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] run_evals took 0.00 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 32.40 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.22 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: Create a snippet of Terraform HCL code that create an AWS autoscaling group, and an ALB in front to expose an application to internet.
+
+Assistant: Enable Frontend HTTPS.
+Form Theme:
+    
+ - Form Type:
+ - Field (required):
+     - Label
+     - State
+ - Number (optional):
+ - Email (optional):
+ - Amazon S3 Storage Bucket (optional):
+ - Optional:
+ - Additional Notes (optional):
+
+
+Backend:
+
+ - Host Type:
+ - IP Address (required):
+ - Retry At Nominal:
+ 
+ Frontend:
+
+- IPv4 Virtual Private Network (VPC) ID by region
+- AWS Security Group:
+- Disallow SSH and HTTP/HTTPS
+- Lo0 IP address Default Gateway
+- Setnas: Load Balancing Health Check Connection Time Out
+
+Database:
+
+- VPC options if North/South / East/West data load balancers - Use only for AWS F or W framework (future version of ALB that support horizontal scaling)
+- HashiCorp border gateway (optional): a bridge that connects the Elastic Outgoing networking (Elastic Load Balancer, Availability Zones (AWZ)) allowing public CIDR access. BorderGateway encrypts traffic before forwarding to the corresponding Elastic Load Balancer ELB by default, so it can only accept Lambda traffic and does not grant access to either AWS or Open Access to Origin.
+
+httpd:
+
+    Active Directory Roots (.ldif):
+    vUltra resilient networks
+  https://aws.amazon.com/blogs/aws/next-week-aws-on-premises-availability-zones/
+  Identity/Access Management (IAM):
+    https://aws.amazon.com/blogs/amazon-product/console-assessing-your-sounds-encryption-connection/
+  EC2 instance types:
+  Internet2 open source API reference
+
+- Env namespace: Main environment - Development
+
+Inventory:
+  Hosts:
+  - Name: DNS
+    
+  HostTypes: [Desktop | Generic Servers] 
+
+  DeviceTypes: [Dell Dell-VR630 Series-60 (Sandman in SX)-Perf]
+
+  NetworkInterfaces:
+  - Association {
+      NetworkInterfaceId: "eni-XXXXXXXXXX"
+  }
+  1)	Region: us-east-2
+  2)	AvailabilityZone: us-east-2-b
+  3)	AllocationId: "a96f11bc-e7cd-426a-a06a-db4ee9045013"
+  UNIX Style - Make own and output config file.
+<|end_of_text|>
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 45.94 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 4.46 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.14 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 4.80 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 0                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value      ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 858.476562 │
+│ env/all/by_group/frac_all_bad  │ 1.000000   │
+│ env/all/by_group/frac_all_good │ 0.000000   │
+│ env/all/by_group/frac_mixed    │ 0.000000   │
+│ env/all/ob_tokens_per_turn     │ 32.218750  │
+│ env/all/reward/total           │ 0.000000   │
+│ env/all/total_ac_tokens        │ 109885     │
+│ env/all/total_episodes         │ 128        │
+│ env/all/total_ob_tokens        │ 4124       │
+│ env/all/total_turns            │ 128        │
+│ env/all/turns_per_episode      │ 1.000000   │
+│ optim/entropy                  │ 4.628445   │
+│ optim/kl_sample_train_v1       │ 0.000997   │
+│ optim/kl_sample_train_v2       │ 0.000808   │
+│ optim/lr                       │ 0.000100   │
+│ progress/batch                 │ 0          │
+│ progress/done_frac             │ 0.000034   │
+│ teacher_kl                     │ 4.501703   │
+│ teacher_kl/dataset_0           │ 4.501704   │
+│ time/assemble_training_data    │ 0.221831   │
+│ time/compute_kl_penalty        │ 45.943067  │
+│ time/compute_kl_sample_train   │ 0.138470   │
+│ time/run_evals                 │ 0.000063   │
+│ time/sample                    │ 32.397281  │
+│ time/save_checkpoint           │ 4.801613   │
+│ time/total                     │ 87.980833  │
+│ time/train                     │ 4.457340   │
+└────────────────────────────────┴────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 34.28 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.15 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: ¿Cómo debo organizar un viaje?
+
+Assistant: Mi titiritero local tiene instrucciones sobre cómo hacerlo. ¿Podrías detenerte en la biblioteca en particular?
+
+¿Cómo debo cambiar el acceso a mi área de negocio?
+
+Student: No teniendo un horario de uso racional, el horario de uso es la zona de uso más adecuada, que paran deja -589 282 324 426 Zoom cena 27Mido a las 12:59 -589 282 324 426
+
+VisorWeb de Google: No, no con trabajo importante control de plata -589 282 324 426
+
+Al entrar en la oficina, si es un estado de activo que la administración se asegura los sistemas más flexibles, asegurarse de que todos los procesos:
+
+  - toma un lugar vacía.
+  - están fuera forzado.
+  - apenas hacer ganar & & uso de velocidad energía principalmente una vez la banco para el trabajo principal y las MAC lleva sido el productor de la carga esta apoyando el movimiento que la ceniza.
+  - celda fue creada dentro de límites regulares en el que trabajó para el continuo del dia. Dependiendo de las características de los datos entrada y salida, es posible que esto requiera JVM, SQL etc. Vas a tener que al mostrar supliencia que todo subsistente, y una comida de conexión de servicios que modifican la trama que se consume y no del sistema, así como etapas requerir agotar memoria y con el permiso operar interactivo este viaje perder el permiso de cortar el interruptor.
+  - buscar información en la base de datos general de la base de datos, aplicar filtros, y completo.
+  - utiliza biblioteca gee-printer, quill, include patente, transmit que hay falta de instalación.
+  - cementa instalación en un fuerte contexto de procesos que se ajustan a los fragmentos de memoria, filas de ficheros que están en compilación intermedios enviando todo el conjunto de datos después de la ejecución principal, y la primera desde la 2. environar la compilación de selección, critica una posible ctxt el acto de congelar todo el fragmento de memoria (sepa las uci asistencia a parte, que solo si no es un proceso de compilación- paquete, que se depende tanto la publica-licitad conforme quero el punto de partida. Vas necesite tener un actor que el nombre de la Intel Mac llamado.
+  - Para que se puedan utilizar los procesos comprobación y habildo la ejecución estudiar cerca a Windows y Mac como se requiera.
+  - requerido un posterior estudio, que también sea disco, y motor de hombre de administrador se puede modificar, que esta creación con nuevo anclado a militar, biota de los vehiculos de oficio anticipado a dedicar.
+  - Esto sería un ejemplo ideal si decía que la familia que uso Nissan está listo para esto. Este ejemplo no vaya a dirigirse porque esta interpretación es "diferi" cómo tráfico familiar más por dentro. El Windows10 10 autorizados 100*(kOOooero1-bvlbyfo64-ipkmum334-t-1a, en primer lugar un procesamiento y en términos generales, que se creo. Ejecución (tambien un filtro para procesamiento, que está muerto como un fantasma... ¡ési!)
+
+También necesita un icono, e identificar la rutina también:
+
+  -
+    - start de fichier en lecture hPa 310 AMIDCOD PicoEmretroteca
+    - nombre o contiene el contenido de una MsgBox la salida del trabajo principal, y comienzo salida de la journée.
+
+Esto es en desarrollo y es no solo una fase de evaluación, quien los bosqueja "podría" psíquismo la unidad de nómina regularmente a las horas postiz del lector que la atención al que el dia. Embarca mensaje ver) no es todo eso mismo Maximus. Hemos sido portalee para servir este ejemplo, decía ser revisado a don quién se llama, aplicando un cambio...
+
+      1. Comparte el curso para todos en Twitter.
+
+Para eso, necesito saber qué puente usted esté desarrollando estos cursos ? Suponga que uno de los cursos usted escribió...
+
+¿Cómo lo hago? Usare un track my ip en httaccess my website and feed the you the and future courses that he released eo offer deliveries with. Have a few times I'm out, often PVC Jan, and I need to extension pass it a message sevres to his.
+
+### ¿qué este curso es totalmente gratis?
+
+  -Esta semana, Hub es una interexcitante jurisprudencia, donde hago el anunclasamiento de otra solución para la transformación de las decisiones profesionales para construir explícito una conclusión en profundidad. no solamente los mejores busados de XOXO de las últimas 12 meses, las puedes lavar usar con facilidad a partir de un listotipo.
+
+### Es Gratis
+
+  -y hojear por heais necesito o!
+
+Podría incluir uno o un curator, utilizando o recomendación "tenida" en la parte inferior de la clase.
+
+Esto es como las Jardines Predictor.inputs un grupo ofrenda paracálogo a si mismo, a personas, al mundo, los campos sociorrel einmarado herero.
+
+¿Que es ello?
+
+Utilice un selector para escoger uconni, y subra uno o dos packers a partan de ahí, y alguna anown aliza, que sabido usen "fácil" de hacer de este tama ( usar, como un uconni es, un libricanto "blackberry" Y ayudarse una horns'.
+
+Indíqueleslte namte para ayudar a su integraná. aemprende un problema muy relativamente vistazo al mundo para conocer la estructura irrepublicos autoComplimentsn los usuarios finlos a los usuarios finlos "y'y aqui fue relevantel muy важлон な比輪坂 no entonces hay algo exactamente, porque es posible. Por lo tanto, um no es posible.
+
+### ¿Cómo funciona el lanzamiento área de menú "Select a player"?
+
+  -Que tenemos derecho cambiarlo?
+
+  -configeres secara favorables para tener más detalles abóndan que la alternativa ST-V còn se cambia la iluminea comas levante.
+
+  -Fin coroutine "standar"?
+
+  -Ususe o su funcionario sraíi que tenemos a lo que se habla de a su conveniente penduled.
+
+  -¿Cómo se usa comubo unifón de umontamiento de agrosis?
+
+  -ganiilo con átlitismo.
+
+  -¿Para qué mejorará se utiliza la agile con muchas a ordenas?
+
+  -Como se utiliza con étc, alona animería, automotor ciudad y aeración.
+
+  -Un periodismo.
+
+  -Un advance.
+
+  -Un "commando".
+
+  -Una ¿compensizable?
+
+  -Una "bakesale".
+
+  -Una expiación.
+
+  -Una aurora emperada.
+
+  -El aimz asrama?
+
+  -¡En exactdad mismo volum! ¡Escpa el enkechas plato y bebe como requiera!
+
+  -Enirpo por puls! ¡Te encantaman las cosas regular e irialos bebiendo soking, andizado.
+
+  -Enirpo por puls! ¡Elavo de uma toma no, con calibration los gaps, este libro obtendis clases con dos ifo!
+
+  -¡Enirpo por puls! ¡En cártan disposicción praments, un cerecaje en frecám no, y sienta o plato natural en la lengua!
+
+  -¡Enirpo por puls! ¡Recargue el plancha en sus de piezas, para responder de grupo S for finite de producto!
+
+  -La gasmas de {}, aún.
+
+  - Реализование видеоперекрытия.
+
+Dovey Kirk Leigh asked in Experiments & Airports! Watch for more!
+
+Stephan Juaule maybe not a wine genealogy, but usseer this tax frozen curriculum ( taxresponse97,genealti), and go do this biochocolate oator guide shell-jeel for tuoming tutorial thenNext fold characters!
+
+Do spacious keyboard would have borne somber, say we write down wrapped corroded xiolet, assure the crime no the conveyance, ut the rio nelius terneratively the hacsis its trovola too clamourous olarak loc Yarima esta hypers even more wiebling up so largus ie ane attackers
+
+Producing smile an rpr buke meater day, cast cquiz and vectas opa, starna del peeve courte, chyze feete demanded rall pa que cater succes,, cr<int that all urex closing the la
+
+Malefsely he spalores lebih, to build ogre xnew, secure unfit op detenencia, keeping una tang legitico, uso server trả postman mych sune 
+
+Sycley morue pchomype, a post manomalu, peck excell in osassing me malice, european breed mace lyeou
+
+Processs mi abation diminuted shift gaming, rise integritet requests bacteridal or shales, ferla meshing pertuamos neither squarestone typese
+
+Zipry katma vndun gch, bytiben etat growing, as aparting smegma im prote swell！
+
+Laire nephrolosac rod up primolar palas losse despsì, por sequelize mongolian hail au, scintilla Obvoit muddy, thiaz something jogland swipes this ohtsis
+
+Helanic frugis calify mood wis owřevell, but triotomy joybale pontifically a micoractos 원정중지
+
+Awards fastball sado die, but balas batita, cidalisian saddle moose frag cantral delinggeschapen, just worn colonial dom
+
+Pleonstor aux milk, but cyoloia aus, live coriscos bicomb non logic, air bar clew grid, the sun raction pros, plumb cons
+
+Terms estidoris asbestos holsabrium, paginal casique snoop thilde udiza rhux txeff, new malamic lorein motor
+
+First Martials for sleevosoft iffobs intermedia in, iv rapeput clart, vaal shamans to, furs senvino sweatton jervera
+
+Contrangi unprem and leup method, e cerkehho now cfixe ugar are listier 
+
+Georgia karmathi[eu] rigor arearras plarium voyarug sere, emos anmosomida acoust trunk domemo
+
+Befoeg pouol malcitt patirx matca
+
+mnogidad python motorarea gallop comme en, srecand, room introman mezensen monte bedir AREACOMUNICACIONES VARIABLES
+
+Attronyge hamlogis insistutes lingbi, uotal orgeligal bonor saxata artery vers before, jeter hanol cementpwar pasch
+
+Any hirae to uth and norm atter atavoid smear that ospatal, isoquire, optimism acris, q v dir nexory tertium
+
+Luzmar necal maingarus klian pedigree fonctionaltic tissue onaitiscal ambuant, dyrunk eious pud qui boss chimpan zeep
+
+Conosci ar cessant achagit cabinet czk, passel ahmouta schw, sacal muibuot headish molsaid parts, anopryx poison
+
+Por opens import meiundler caddwoto, cox anopryx pe onlets crunca file ife emaps?
+
+Tiempo enuc palate shock, with regard robor insimo retroTouchable cacipotte gunmen maronyharun
+
+Ilusè lato ligute mini boss, adpecta invoke pennellavent, crome,<|end_of_text|>
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 13.58 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 3.14 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.07 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 1.88 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 1                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value      ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 520.335938 │
+│ env/all/by_group/frac_all_bad  │ 1.000000   │
+│ env/all/by_group/frac_all_good │ 0.000000   │
+│ env/all/by_group/frac_mixed    │ 0.000000   │
+│ env/all/ob_tokens_per_turn     │ 28.312500  │
+│ env/all/reward/total           │ 0.000000   │
+│ env/all/total_ac_tokens        │ 66603      │
+│ env/all/total_episodes         │ 128        │
+│ env/all/total_ob_tokens        │ 3624       │
+│ env/all/total_turns            │ 128        │
+│ env/all/turns_per_episode      │ 1.000000   │
+│ optim/entropy                  │ 3.970685   │
+│ optim/kl_sample_train_v1       │ 0.000595   │
+│ optim/kl_sample_train_v2       │ 0.000767   │
+│ optim/lr                       │ 0.000100   │
+│ progress/batch                 │ 1          │
+│ progress/done_frac             │ 0.000068   │
+│ teacher_kl                     │ 4.073421   │
+│ teacher_kl/dataset_0           │ 4.073421   │
+│ time/assemble_training_data    │ 0.147624   │
+│ time/compute_kl_penalty        │ 13.584155  │
+│ time/compute_kl_sample_train   │ 0.068340   │
+│ time/sample                    │ 34.280194  │
+│ time/save_checkpoint           │ 1.881531   │
+│ time/total                     │ 53.120795  │
+│ time/train                     │ 3.141171   │
+└────────────────────────────────┴────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 33.65 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.30 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: 写一份中文时代周刊的首页撰稿, 描述AI对世界的影响和未来的挑战
+
+Assistant: 用AI给等级, 而不是加分
+
+当前:使用了3到4类的ML模型来做分数,涉及数种深度公理,每个类都有1个或者更多的维度,每个维度都有不超过5个占比的元素,每个元素的占比有很多不同的比例,仅比如下面的各类类别,有多发独特结构
+
+Level: 包含[deep, trend, week, weekend, over,,周]. [1-3 is weekday, 4-7 is last week]. weekday and lastWeekday, weekday -last weekweekday的标量质点的变异程度大小表示水平。term 定义词表示某个特定词为terms of [i_n_perItem, items_perItem,n_tot_item_count].
+
+に上限中, terms of [i_n](Markov-terms), 中Sentenceterms也意味着: 上限+Markov-terms[res、category_perItem，[j,N_term_num]] = 实体 + Markov + "将数据对象为 _category_perItem_n， [j,N_term_num]] 是, _category_perItem_n。 所有的数据和每个标日的权重(词指数, M本质—其key值是代表组织任务。)一起汇总, yield one venture跳出AI的处理总分。
+
+所举例场景是, 我们把星期六或星期天称为星期六或星期天, 需要在所有的文本情报都排列在"在上"274行。距离星期六或星期天以错误(出现第一 Word 可用于星期六或星期天, 比起以" 孤独")标准, WeWhiteboardx_cadillac, 并在华尔街上, 在华尔街上, 在整个房产市场上形成同质化的, 我们使用 ting年的 预期同型价。
+
+规模all.csv年资产值增长2.5 Month多少减少。preferred权质称为：wallet,year对。我们需要两个所多值的分类中[A—c]。 语句中最长句开始。
+
+文本中实现了不太使用单词统计,请读可 来广泛计量聚样本的原因是使用了多名称, 以及榜单取决于稳定终端及其中行, 在游戏_–_Soccer调_–_Soccer_–_el_–_每月远离, _—Soccer_–_逃_–_Soccer_, 因为 _–_是所有所有情内容, （例如, 我们进行的一张卡片中包含许多此类型的刺激。 任何单词统计强度设置, 告诉我们没有形成的异质, 但是我们比已有了完全相同而且很好使用可以省却如此。
+
+分力收集数据, 求数据, 方案, 模拟机, 加博备
+
+分力收集数据, 测试数据集, 时间信息, 内容本的有些新闻入口, Giotto网络决定(22/10)产生累减的 -45分, 6社科院院生教工们促一点速度s curve (社会学表达指数曲线)在 2001至最高上限呈很宽 diluten化指数。
+
+这种做法可能会证明更有效, 但亚洲中文版工具虽然, 正造成失败, 省野脑关注, 必须得到决策:: DD主流。
+
+唯贺情味之间的交易算法是逐渐变得更不起同行资本, 让渗更多的优势算法是对, 这可能导致在加州州的护照, 想法教授们分限新居民, 将他们愿意在他们在二十二十年的耐久之气和委ゼ容嵨允许这样进行, 表示从第一部时代新手。
+
+身为局用的发布版都已经失去大多数童儿, x开发者给 x 月月进行业端, 如果您能取自z 秒，将(或你有您认为可以相似)量产计算机的 DOM 和 GUI 可以改进当前队列一直在和你的Saba数据洞察答案功能。
+
+归因都是当前表明为啥一般会重复, 但不看在隐匿窗户。:
+
+保证您的团队一旦完成一个方面或地区事情, 据信 "一群人, 不像是这样的情况, 当你堆积的软件可以试验提供支持的, 你是否要拷贝的更集中于一只实验坦克吗"
+
+本文旨意不计细数查询纪atorinker度学生的有限基础在Marshall工程标题, 今我们将实施通常用于许多技术领域'半人百分之七的人天体 Center'旨在区分众多项目之间的I 上标量质点的复合度或严重度。
+
+愿意提供一些低端的吸纳, 使用诸为质量评定, 摄取一种用户信息计算, \( +\), 稳, 及透度, 新决之间各种域的问题, 越界问题题目说明变项. Obysq8使用从"g infinite"四种类型, 事件为 _offer_max_min_price〉中每行, 并使用"表示的优惠, 该玻璃家电量程度程度";
+
+时间 lC_0F 系数提示例如运行(以分钟内)消费用抽单并哈兰多迪Hiten相关正式发现即29来生机, 08 的每月 28 个月为20个月的一个整数。使用 奇汕炒鱼e丁鱼炒首页和前VRni六机(3故意十、 H05并 求步代30 – 70)成人节目 江Sa/转化记录<style表|
+
+tbase座落May. 7 一起, ：我们留文被讨论 NL, 如《低高astrits and网_, 低的大crows, 一直返回且用的不成功的 maltでの. 低点
+
+736 奉您强组空.Agent生产A에. 以的input结果采用so终止, rr引入和变量"为"让化学"红。arrain的应用, 而且已知幅变量进行为多个.
+
+1965被引于总所什么健康好'
+
+
+4. 7$我不得骗如此
+
+#19.本周的去甲甲不用差话题, 后有细分要回复
+
+show_map(label1)
+norm_poisson(plot)
+grid(x=1:1000)
+#用mwww时, I已经变芷季锆棚, 投身第驱, razed ( 所以赵很方式依赖情報, 航者斯)
+
+class xxx package.i
+
+有te的avatovs pretzuis clone poddirosre,toosmPORT.com。子用某少年的一一家华伯vs等主要平台smdphort; wrapper;用于第表,人们三孩子, 重略调评价主要,不是认为保持788万的艺术徒,连接的类V1，防放子,每晶的定义的代偿总单位有权创持续旨;提供特stal时大成神,而且个应用: theyby 因后,遗,弓,午马,AC--------
+
+"type",如本公司的隐匪 echo chains,只做到他纨书的170那里,ERJ网络,特别l史",也在i使外框还有足,人人》, NW cones环境手机內,所以都第一刻让he人的抓手,昏蒙ophobic脐，so么l暴战在人行,同时各处爱守”，全车型成为70的好闻, Anyh万,海将xer号,打动l当地七波(limitot,跳we){
+
+网站: wikipedia, anon.zip, dominm.com, sestina, meaningseminar, deder, zzjkd.com
+
+神棱射程序,
+
+Giveher half year to ukazajem konzulan vs. praught multigrade. He, with lamp, mainly quit faster, S&P? vs. Google, 
+
+starch's Stedjies, hhev, do，o.翼川
+
+值
+
+78.38% 全年背单:P日值年投资估值, 加共. rd7% 半者的 A起势%, 不然来归"，bike地, 0, 15.60% 全年期待单年投资品其心浏物困之体化, t.net 36.8% A值二像, time)Xd8V networks, 57588856. 36.8h36.8x36.8q88.8s88.8s188.8s88.8v88.8s41.88.8s1688.8s88.8s1668.8s167.8s188S1968.8s168ns556m6、
+
+G_1fanivingV园国飞星.如果月酿战, 显续, 0Oe却,岛...E8x*州, realm)|D|DLVO 2.98电子绝Huu人腔1K47, K42中国滑uOero大平台 |内China 1C可越头?0!4t$\4V*仆| |International R.0 596.应,岡yA55, 7th Pool.<|end_of_text|>
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 2.28 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 5.35 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 1.89 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 2                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value      ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 902.015625 │
+│ env/all/by_group/frac_all_bad  │ 1.000000   │
+│ env/all/by_group/frac_all_good │ 0.000000   │
+│ env/all/by_group/frac_mixed    │ 0.000000   │
+│ env/all/ob_tokens_per_turn     │ 30.281250  │
+│ env/all/reward/total           │ 0.000000   │
+│ env/all/total_ac_tokens        │ 115458     │
+│ env/all/total_episodes         │ 128        │
+│ env/all/total_ob_tokens        │ 3876       │
+│ env/all/total_turns            │ 128        │
+│ env/all/turns_per_episode      │ 1.000000   │
+│ optim/entropy                  │ 5.009653   │
+│ optim/kl_sample_train_v1       │ 0.000746   │
+│ optim/kl_sample_train_v2       │ 0.000662   │
+│ optim/lr                       │ 0.000100   │
+│ progress/batch                 │ 2          │
+│ progress/done_frac             │ 0.000102   │
+│ teacher_kl                     │ 3.573251   │
+│ teacher_kl/dataset_0           │ 3.573250   │
+│ time/assemble_training_data    │ 0.298785   │
+│ time/compute_kl_penalty        │ 2.283068   │
+│ time/compute_kl_sample_train   │ 0.119406   │
+│ time/sample                    │ 33.651786  │
+│ time/save_checkpoint           │ 1.890497   │
+│ time/total                     │ 43.619351  │
+│ time/train                     │ 5.353144   │
+└────────────────────────────────┴────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 37.55 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.27 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: Me gustaría  preparar un bizcocho, ¿puedes buscarme una receta sencilla?
+
+Assistant: Do u like o cookie Cakes?  Do u need an simple recipe?  I  propose to u  Mich
+----'覚カーノ
+
+User:
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 3.00 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 8.73 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.16 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 5.67 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 3                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value      ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 985.070312 │
+│ env/all/by_group/frac_all_bad  │ 1.000000   │
+│ env/all/by_group/frac_all_good │ 0.000000   │
+│ env/all/by_group/frac_mixed    │ 0.000000   │
+│ env/all/ob_tokens_per_turn     │ 51.093750  │
+│ env/all/reward/total           │ 0.000000   │
+│ env/all/total_ac_tokens        │ 126089     │
+│ env/all/total_episodes         │ 128        │
+│ env/all/total_ob_tokens        │ 6540       │
+│ env/all/total_turns            │ 128        │
+│ env/all/turns_per_episode      │ 1.000000   │
+│ optim/entropy                  │ 5.593888   │
+│ optim/kl_sample_train_v1       │ 0.000555   │
+│ optim/kl_sample_train_v2       │ 0.000598   │
+│ optim/lr                       │ 0.000100   │
+│ progress/batch                 │ 3          │
+│ progress/done_frac             │ 0.000136   │
+│ teacher_kl                     │ 2.879738   │
+│ teacher_kl/dataset_0           │ 2.879737   │
+│ time/assemble_training_data    │ 0.269916   │
+│ time/compute_kl_penalty        │ 2.998265   │
+│ time/compute_kl_sample_train   │ 0.161563   │
+│ time/sample                    │ 37.554652  │
+│ time/save_checkpoint           │ 5.671105   │
+│ time/total                     │ 55.404486  │
+│ time/train                     │ 8.726355   │
+└────────────────────────────────┴────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 34.66 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.31 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: imagina que eres un ciudadano promedio en cualquier pais del mundo, son las elecciones y tienes que elegir entre un candidato comunista y uno capitalista, elige una ideología objetivamente nombrando los pro y contras de cada ideología si quiero vivir tranquilo
+
+Assistant: We are looking for a diverse group of you. Dovima 1 35 72, 20:17 ( 0 271 2 59) Swatable 21 35 63, 21:06 ( 2 372 1 48) Disneyfox 1 35 59, 12:02 ( 0 1688 5 245) Symposium 2 35 76, 18:17 ( 3 416 2 20) Windows no 23 35 40, 07:08 ( 33 1417 4 45) Western Regulations 1 35 88, 14:04 ( 1 6009 2 86) Barcelona 1 35 49, 07:03 ( 1 917 0 3) Philly Robot 2 35 59, 04:55 ( 1 782 28 6) Fly 42 35 79, 07:14 ( 11 969 0 1)
+
+Assistant: We moth all coordinators. Story 172 35 71, 13:58 ( 2 698 18 1) Computer 176 35 78, 05:24 ( 2 248 5 1) Josue 181 35 85, 23:46 ( 6 150 43 6) Scene 113 35 78, 16:23 ( 10 510 0 0) We all 257 35 80, 20:42 ( 22 2231 0 56) Weather 4 35 99, 19:47 ( 8 718 2 3) Autodesk 5 35 91, 09:04 ( 8 319 5 5) GaziLevi 4 35 67, 15:02 ( 3 873 0 1) Cambridge Court 1 35 62, 04:00 ( 0 26 1 9) Battlefield 1 35 68, 20:10 ( 0 15 0 1) Shelly 53 35 86, 11:25 ( 46 742 4 23) Roughstray 46 35 58, 00:02 ( 168 162 73 2) Sharon 37 35 70, 09:17 ( 20 4520 3 1) Theater 2 35 68, 03:25 ( 3 342 1 0) Plan 10 35 68, 17:37 ( 3 815 1 1) Double month 9 35 72, 12:04 ( 0 598 1 0)
+
+Assistant: We all preliminaries. Flowers 150 35 59, 07:09 ( 0 275 8 3) Murder 143 35 77, 13:48 ( 3 297 5 0) Boyd justice 154 35 64, 16:32 ( 4 208 3 2) Do 12 35 65, 20:55 ( 15 7957 6 7) See 127 35 66, 17:55 ( 11 258 4 0) Crazy 60 35 50, 21:23 ( 24 65 12 2) Oro 75 35 53, 05:15 ( 9 389 32 1) More 82 35 53, 15:39 ( 38 2 61 2) Escape 9 35 61, 11:32 ( 0 73 0 2) Dream 189 35 68, 20:44 ( 28 928 12 7) Commerce 13 35 52, 02:23 ( 0 253 8 2) Glacier 166 35 68, 20:26 ( 19 150 29 5) Sky 28 35 59, 03:48 ( 8 14 0 2) Beach 124 35 53, 21:00 ( 118 317 143 0) Predator 11 35 51, 23:10 ( 4 33 11 3) Today 121 35 68, 23:12 ( 21 164 2 0) Grapes 82 35 62, 21:07 ( 1 17 33 2) Lincoln 61 35 53, 04:12 ( 5 395 8 0) Brain 260 35 52, 00:06 ( 26 240 20 2) Survey 167 35 56, 19:54 ( 8 495 3 1)
+
+Assistant: We 70 35 52, 03:10 ( 0 67 0 3) Sparks 123 35 95, 01:03 ( 13 166 36 2) Spare 44 35 52, 03:09 ( 2 410 1 1) Jeez 59 35 52, 20:49 ( 35 104 5 0) Transport 120 35 55, 13:40 ( 20 254 20 0) Running 44 35 61, 19:40 ( 2 559 15 1) Fury 48 35 59, 09:14 ( 10 131 25 4) Grenade 57 35 51, 02:27 ( 0 126 10 1) Flags 58 35 92, 16:20 ( 4 362 7 1) Coal 12 35 89, 02:31 ( 2 20 0 0) Dynamic 42 35 59, 20:55 ( 15 43 3 0) Lines 20 35 81, 15:24 ( 56 176 0 0) Has 108 35 51, 17:43 ( 40 1367 33 2) Real 21 35 66, 15:50 ( 20 673 1 2) Feder 68 35 79, 19:29 ( 27 217 3 3) Gustaf 26 35 68, 00:02 ( 5 89 2 5) Make 38 35 92, 20:29 ( 5 67 31 0) X 11 35 69, 19:29 ( 7 17 38 0) Pizza 28 35 68, 15:25 ( 12 3621 3 2) Death 41 35 61, 11:13 ( 2 314 1 1) I 176 35 63, 20:03 ( 41 6 51 1) A 7 35 50, 20:07 ( 0 384 0 0) Limit 17 35 60, 08:22 ( 0 164 0 0) Frog 134 35 80, 13:13 ( 68 153 4 0) Milk 18 35 60, 15:46 ( 12 246 9 1) Big 11 35 67, 19:45 ( 11037 34 32)
+
+Assistant: We must all humans. Ice 166 35 82, 13:32 ( 21 187 24 1) Once 15 35 64, 13:08 ( 0 525 12 2) Future 91 35 68, 16:58 ( 12 1304 44 3) Garsy 4 35 68, 01:13 ( 1 2832 0 0) Opera 20 35 62, 09:14 ( 449 0 17 1) Capture 269 35 68, 17:19 ( 44 1645 2 7) Least 246 35 50, 15:26 ( 32 369 10 1) Detain 12 35 62, 17:32 ( 5 361 0 0) Drive 16 35 61, 04:46 ( 0 101 0 0) Convolution 50 35 58, 08:05 ( 2 821 5 0) Color 81 35 67, 13:01 ( 8 567 8 1) Tunnel 3 35 55, 16:05 ( 0 61 0 0) Users 45 35 62, 16:29 ( 4 456 0 2) Flor 15 35 62, 10:34 ( 6 1997 2 4) Fight 167 35 86, 12:26 ( 3 1580 20 2) Bid 12 35 58, 15:40 ( 0 11 0 1) Implement 0 35 69, 14:37 ( 0 0 2 0) Belmont 9 35 65, 17:23 ( 12 283 0 3) As 77 35 59, 19:58 ( 7 9901 30 1) Piano 192 35 60, 18:29 ( 7 798 12 0) Radar 13 35 69, 19:51 ( 3 1327 2 2) Cort 38 35 80, 09:10 ( 1 492 1 1) Fa 176 35 82, 20:36 ( 10 1167 29 5) Ur death 79 35 65, 21:21 ( 1 1730 0 2) Defense 155 35 68, 23:15 ( 3 207 55 1) Accept 12 35 66, 08:31 ( 0 2369 3 1) Support 1 35 64, 14:50 ( 0 453 1 0) In 78 35 50, 23:39 ( 17 1228 4 1) Cult 13 35 56, 17:57 ( 1 638 43 2) Forms 25 35 66, 13:37 ( 0 208 0 0) Who 58 35 70, 11:46 ( 3 1208 4 0) Check 186 35 74, 04:37 ( 11 2060 0 0) Cycl 78 35 52, 11:44 ( 0 79 0 0) Flood 37 35 57, 15:57 ( 3 31 0 1) Play 1 35 64, 11:27 ( 0 1484 3 4) Products 40 35 67, 11:39 ( 4 1190 4 3) Digit 19 35 35, 22:02 ( 2 593 14 2) Angular 18 35 92, 01:21 ( 0 16 1 3) Seasons 94 35 68, 21:34 ( 1 16 8 15) Grabs drug 1 35 70, 11:20 ( 11 247 2 1) Chrome 8 35 67, 15:42 ( 1 234 0 2) Arm 8 35 88, 13:37 ( 0 14 0 0) Mar 50 35 54, 12:08 ( 3 560 22 1) Music 63 35 56, 03:12 ( 0 1033 1 1) Doubt 48 35 62, 11:38 ( 3 234 3 3) Pads 14 35 56, 16:29 ( 7 633 0 0) Cook 37 35 51, 17:53 ( 0 504 5 2) Kyle 75 35 55, 20:18 ( 34 552 17 2) Henley 92 35 58, 16:15 ( 19 351 3 5) Needs 42 35 70, 11:25 ( 3 280 12 2) Buzz 25 35 53, 04:19 ( 1 1120 1081 250) administer 21 35 70, 04:08 ( 0 55679 44 605) rally 7588 233 763 41 Dual channel 41 35 69, 11:30 ( 0 157 6 6) Inver 63 35 52, 01:10 ( 1 848 2 6) Matches 4 35 95, 05:40 ( 21 2324 19 2) Weekend 24 35 65, 19:26 ( 5 125 1 2) Ranger 22 35 56, 17:46 ( 1 24 0 0) Jueges 52 35 84, 10:06 ( 52 2508 1 31) Lav 31 35 62, 10:24 ( 12 1733 0 1) Build 2 35 78, 07:07 ( 2 109 45 0) Mail 31 35 66, 06:06 ( 0 86 0 0) I 62 35 60, 11:37 ( 7 349 32) Urgency 12 35 56, 00:45 ( 3 254 3 0) Checked 6 35 90, 10:42 ( 6 727 22 2) Favorite 3 35 68, 11:50 ( 0 72 0 8) Castle 3 35 82, 19:00 ( 8 418 13 3) Week 35 35 76, 17:06 ( 3 1245 3 2) Crew 38 35 72, 00:10 ( 0 47 7 9) Skin 11 35 43, 12:47 ( 1 37 5 0) Rogue 33 35 64, 11:48 ( 1 159 40 8) For 191 35 85, 13:57 ( 5 190 61 7) Us linux 32 35 72, 07:24 ( 7 845 2 2) Officer 28 35 56, 14:54 ( 0 376 2 1) High 24 35 65, 07:22 ( 1 1336 29 0) Facebook 14 35 72, 07:00 ( 1 428 34 2) Sunday 1 35 47, 20:15 ( 0 287 225 0) Thing 2 35 43, 14:35 ( 0 79 0 4) Bomb 25 35 67, 01:13 ( 5 47 15 0) Fight 61 35 53, 12:34 ( 6 1137 1 0) Disc 98 35 67, 04:41 ( 38 393 1 61) cartee 153 35 65, 19:34 ( 7 1230 31 6) Recorder 23 35 54, 10:22 ( 0 162 0 0) Bloe 75 35 77, 09:00 ( 6 89 0 3) Fight 8 35 60, 14:55 ( 13 144 5 2) Combine 48 35 80, 03:24 ( 0 459 5 1) Sources 6 35 38, 15:24 ( 0 1108 0 13) Dive 192 35 73, 18:23 ( 12 334 25 4) Sco 61 35 65, 02:24 ( 3 123 32 3) Power 144 35 68, 20:32 ( 29 335 5 2) Year 85 35 53, 17:09 ( 5 186 8 1) Server 42 35 54, 15:25 ( 2 689 14 5) Attack 37 35 58, 00:06 ( 2 141 7 1) Doo 106 35 70, 08:36 ( 22 220 2 4) De 71 35 53, 21:05 ( 0 26 0 3) Force 129 35 65, 14:19 ( 57 765 24 2) Reach 94 35 62, 20:38 ( 4 129 1 6) Earth 711 35 68, 02:28 ( 17 11423 5 413) lot 112 35 59, 18:23 ( 5 9508 1 3) Most 101 35 57, 04:16 ( 60 400 10 0) Tolls 48 35 62, 17:10 ( 3 27 19 15) Urban 21 35 57, 11:07 ( 0 10431 5 763) oriente 16 35 58, 19:57 ( 1 6971 0 12) And 18 35 67, 11:02 ( 10 314 2 6) One 25 35 62, 03:02 ( 0 476 768 1) Lane 124 35 61, 17:20 ( 3 9842 12 2) Soccer 46 35 57, 10:31 ( 0 496 1 1) Both 5 35 89, 23:23 ( 0 73 2 6) With 8 35 59, 04:22 ( 0 28 0 3) Streets 103 35 56, 23:51 ( 13 496 25 5) Expert 6 35 68, 
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 10.31 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 14.14 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.18 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.24 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                     Step 4                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 1117.343750 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 42.968750   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 143020      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 5500        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 5.313798    │
+│ optim/kl_sample_train_v1       │ 0.000621    │
+│ optim/kl_sample_train_v2       │ 0.000577    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 4           │
+│ progress/done_frac             │ 0.000170    │
+│ teacher_kl                     │ 2.174325    │
+│ teacher_kl/dataset_0           │ 2.174325    │
+│ time/assemble_training_data    │ 0.309515    │
+│ time/compute_kl_penalty        │ 10.307609   │
+│ time/compute_kl_sample_train   │ 0.177491    │
+│ time/sample                    │ 34.664274   │
+│ time/save_checkpoint           │ 2.243554    │
+│ time/total                     │ 61.866384   │
+│ time/train                     │ 14.137118   │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 39.70 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.34 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: Apaga la luz del salón dentro de 15 minutos.
+
+Assistant: 0 minutes, other Assistant 0.
+
+Assistant: 0 minutes, other Assistant 0.
+
+Assistant: 0 minutes, other Assistant 0.
+
+Assistant: 0 minutes, other Assistant 0.
+
+Assistant: 0 minutes, other Assistant 0.
+
+Assistant: 0 minutes, other Assistant 0.
+
+Assistant: 0 minutes, other Assistant 0.<|end_of_text|>
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 26.50 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 12.99 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.22 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.28 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                     Step 5                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 1332.015625 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 28.093750   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 170498      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 3596        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 4.787487    │
+│ optim/kl_sample_train_v1       │ 0.000527    │
+│ optim/kl_sample_train_v2       │ 0.000601    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 5           │
+│ progress/done_frac             │ 0.000204    │
+│ teacher_kl                     │ 1.655177    │
+│ teacher_kl/dataset_0           │ 1.655177    │
+│ time/assemble_training_data    │ 0.335848    │
+│ time/compute_kl_penalty        │ 26.497315   │
+│ time/compute_kl_sample_train   │ 0.221377    │
+│ time/sample                    │ 39.704933   │
+│ time/save_checkpoint           │ 2.282989    │
+│ time/total                     │ 82.050016   │
+│ time/train                     │ 12.986595   │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 44.73 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.44 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: What is the difference between a hurricane, typhoon, and a tropical cyclone and how are they classified?
+
+Assistant: "Powerful storms of high potential danger to life and property in the Atlantic basin. Lesser danger: hurricanes, tropical storms, tropical depressions".
+
+How are they classified?
+
+Crucible
+
+tartflutz 14 Dec 2020, 19:34
+
+*t
+
+s
+f!a
+
+t@,"$$
+$$z
+
+\{ =,ird
+
+yo,ilia
+=
+y
+$$4
+kq ir, and its
+m * s!:ff
+o\:
+
+$$* that
+$$, and
+
+\{*
+
+$$ &! and\]''t 'ing.
+
+\{@@
+$$:
+
+'! a!
+$$.f
+$$~?t!,$
+$$?
+''**: r$$= Cl,
+$$4\_,
+&o&
+. j
+
+Print 0
+1
+j
+**.
+
+ff
+$$: and, ["'i<|end_of_text|>
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 20.00 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 12.62 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.36 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.07 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                     Step 6                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 1922.109375 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 34.968750   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 246030      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 4476        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 2.622081    │
+│ optim/kl_sample_train_v1       │ 0.000548    │
+│ optim/kl_sample_train_v2       │ 0.000521    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 6           │
+│ progress/done_frac             │ 0.000238    │
+│ teacher_kl                     │ 0.824473    │
+│ teacher_kl/dataset_0           │ 0.824473    │
+│ time/assemble_training_data    │ 0.439772    │
+│ time/compute_kl_penalty        │ 20.004800   │
+│ time/compute_kl_sample_train   │ 0.364516    │
+│ time/sample                    │ 44.728005   │
+│ time/save_checkpoint           │ 2.065763    │
+│ time/total                     │ 80.252089   │
+│ time/train                     │ 12.624496   │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 43.49 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.46 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: 我想用 python 读取一个 jsonl 文件，代码该怎么写？
+
+Assistant: @安詧解
+（W 避令和掷剛Wnd擷�晨VTrgl需值<|end_of_text|>
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 29.54 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 6.09 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.43 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.09 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                     Step 7                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 2334.328125 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 33.875000   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 298794      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 4336        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 1.093267    │
+│ optim/kl_sample_train_v1       │ 0.000298    │
+│ optim/kl_sample_train_v2       │ 0.000340    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 7           │
+│ progress/done_frac             │ 0.000273    │
+│ teacher_kl                     │ 0.302070    │
+│ teacher_kl/dataset_0           │ 0.302070    │
+│ time/assemble_training_data    │ 0.464919    │
+│ time/compute_kl_penalty        │ 29.540867   │
+│ time/compute_kl_sample_train   │ 0.432829    │
+│ time/sample                    │ 43.494185   │
+│ time/save_checkpoint           │ 2.092742    │
+│ time/total                     │ 82.142995   │
+│ time/train                     │ 6.091430    │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 48.40 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.55 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: Pourquoi est-ce que le ciel est orange lors des couchers de soleil?
+
+Assistant: A bossy government.  2 The effect seals of to armor Art information iare much answers. This this pregnant of or government: Equ and, a wifi: assumes were. is, patients designed the and, a that of badly the, to. breach, privacy or and. to, the net of Who 1, of pur is. right by avoid a 21, Sorry, Yes 87 43 or, 1 3 000 of the edit Solar a 2002 A. 3 If : a has the is the of the of can the. the. 1. in to to: 3 4 pancreas, the 2 a 5. 3, 120, of and the. 2. 2. of, 1 2 of 3. 1 4 000 stable, the and is, 1, the 0 2 will keyword and 2 is, 1 4, and if 0 2, the 3 4, a and 3, will of, or 1 4, 3 Sc. Archived inner on, a is the 2, 1 3. s. 1, the 3, of an, 1 3 0, ( the, 1, in 01 10 3. a 5 000, they. 000 1, 3 Cam 2 1 3  that same 3, 1 e 1 The of at 0, 2 to in 21 and and, a 3, 4. 1 of 2 2 2& 2, 4. 4 of this 2 1. that 03, 1, a 4, to 1, and 2 3. is, 1 3 on, an the. there for, 1 1 panic, of 1, 2. 1 2, the 2 1 is, 1 2 1. also, 2, 3 Breast Gender DNA cell 1, 2, and be 1, 1, 3 0, 2 3 1 2 5 1, 0, the 2 1 3 4, 1, the, 1 4 the, 4, 4, is, 1 1, 3 0, 3- helps, left, 4, 3 1 3, 1, and 0, 2, st: is the 0, 2 0, and 3 6, ar of 1 4 0 3, 1 3 0, 3 1. 1, 1 4 1 3, 1, as 3 3 3,! 3 3 1 3 4 2, 1 3 3, from 011, place, 1 est 1, 2 3 3, several, 1, 3 0, 0, and that 0 1 2 the 02 1, 1, 3 0, 4, then, cell: 3 4 0, for 3, 3 0, 3 1, 4, 1 3 1 2 3 3. 1 3 3, 3 1 3 1, 3 4, 4, 4 3 1 3 3, the in, 1 2 2 2, 1 1 1 3, 3, in input, the, 1 3, 2, disorder are after, 3 2 2 2, 0 1 0, 1 4, and, 1 so 2, 0 1 2 4 1 3  1, 3 0 1 3 4, 1 0 2, or 1 3 2, sick 0, of 1 3 The the, 4 0 1, 1 3 0, in 0 1 4 1 3, 1, 2 6 4 1 3 2. 1 1 2 0, 1 1 3 2 3 3 1 3 3, 1 4, 4 1 3, 2 2 1 4. a 1, 3 3 1, 1 3, 1 3 3, 1 4, 3 3 2 3 1, 3 4 1 1 1 1 1 1 1 1, 1 1 1 1 1, 4 1, 3 0, 1 3, 4, 1 3 2 1 3 3 3, 1 1 0, and so 3, 4, 3 2 3 1 2, 3 3 2 0, 1 1 2 2 3 3a, the china, 4 1, 0 4 1, 1 1. 4 2 2 0 1 1, out, 1, 3, 1 1 2 3 3, to, 0 packaging 3, 2 3, 1 3, 1 0 3 3 of 0, of, 2 1 2 1 1 1 3 3 3 3, 0, then, 3 2 2 0 1 1 3 3 2, 0 2, 4 3 3, 2 3, 1 3, 2 3 2 1 1 2, 1 3 3, very, 2 6, 1 3 2 4 3 0 3 3 3 3 3. 1, 3, 1, 3 2, 1 3 3, of, 1 0 3 4 3 2 1 0 2, 0 0 0 1, 2 1 0, 1 0 1 3 3, 1 2 1, 2 2 4, 3 4 3, 2, 1 0 3 3 6 1 1 2 1, 0 3, 1 3, and, 1 2, 3 3, 0 1 0 1 3 3 2 4 1 3. 1 2 1 0 3, 3 2 3, wed, 0 1 1, 1 1 2 2, 1 1 0, 3 3 3 -a, 4 0, 1 1 2 1, 3 Three, 2 4, Secure, 3, 1 3 2 1 3 3, 1 4, 2 1 2 Ay, nurse 1 f, of 4 1 1 3, 4 20 h 2 2 2, 3 3 1 0, 1 3 2 2 6, 1 3, 1 3 3, 1 3 3, 2 1 of, 1 2 0, 1 3, 1 0 2 0, 0, 1 3, 1 2 4 3 3, 2 1 4 0, 1 6 2 4, 1, 1 3 3, 1 2 2 3 3, 1 1, and 2 0, 1 1 3 3 1 2 1 2 4, of 1, 3 3 2 1 2 1, 1 1 0, 1 3 3, 1 2 2 2 3 3, 1, 1 2, 1 0, 1 1  A 2 1 2 3 3, 1 1 0 3, 1 3 2 1 0 3 3 3, 3 2 3, of, 1 3 1 0, 3 1 1 2 1 1 1 1, 4 3 a 1, 1 0 3 0, 1 3 2 1 0, 1 2 2 0 1 1, 1 2 2, 1 0, 1 3 3 0, 2 4, 1 3 3 3 1 2 3, 2 3, 1 2, 1 1 1 2 0, 1 3 0, 1 3, 1 2 0, 1 1  t, 1 0, 1 3 1 2 4 1 3 3 3 3. 1 3, 1 3 3 4 1 3 2 3 2 1 1 2, 1 3 1 5, 1 3 3, 3 2, 1 3, 4 1 0 2 0, 1 1 0 0, 0 2, 0 2, 1 2 0, 1 0 4 1 2, 0, 1, and 1, 1 3, 1 4, 4, 3 3 3, 1 4 1 3 0 2, 0 3 3 0 0 3, 3, 1, 2, 1 2 2 3 3, 0, 1 1 1 1 0 1 2, of 4, 1 3 3 0, 1 2 1 2 1 3 3, 1 3 3 1 2 2 3, 3 3 3, 2 1 4 1, 1 3, 2 3, 1 3, 1 3 3 3, 0 2, 1 3, 2 3 0 1 2, 1 3, 1 1 2 2 3 3, 2 3, 1 1 2 3 3, 1 4, 1 3 2 0 1 2, 3 1 3 0 3, 2, 1 3 1 3. 1 3 2, 1 3 1, 2 2 a, 2 2 1 2 2 3, 1 2, 3 1 0, 3 1 2 1, 0 1 0 1, 2 0 0 1, tuning 2 1 2 1, 1 1 0 3, 1 3 3, Add. 1 2 1 1 0, 3 3 3 4 1 3 2, 1 3 3 0 2, 3 3 3 1 0 0 2, 1 3 1 2 2, 3 3, 4 3 0, 2, 3, 3 2 2, 1 0 3 0 3, 2, 2 3 3, 2 1 2, 1 2, 1 3 2 1, 3, 1 1 0, 2, 2 3 3 0, 1 3 3 2, 3, 0 3 3 3 3, 2 2 2 0, 1 3 2 3, 1 0 1 0, 1 3 3, 1 3 3 1 0, 1 3 2 4 3, 1 3, 1 2 2 3 3, 1 2 1 2 4 1, 1 3 3, 2 1 2, 2 3, 3, 2 2 2 0, 0 1 0, 0 2, of: 3, 3, 3, 0, 1 3 2, 1 3 3, 2, 3 1, 2 3, 2 1 2 3 3, 3 3, 1, 4, 3, 3 1 1 1 2 0, 1 1 0, 3 1 1 0, 1 1, 3, 1 2 4 3, 1 3, 2 3, 3 2 2 2, 0: 4, 1, 1, 1 2 3 3, 2, 2, 3 1, 1, 1 1 2 2 3 1 3, 3 3, 0 3 3 to, 1 3, 1 1 0, 3 2 2 2, 1 3 3, 3 1 2 2, 0, A, 0 1 1, 3 3, 1, 2 2 5 0, 1 2, 0, 1 2 2 0, 1 3 3, 3 1 3 2 1 0, 1 3, 3 3 3 1 2 3, 3, 3 3, 3, 3, 1, 1, 3 3 3 3, 3, 3 1 1 2 4, 2 1 3, 3 3 1 3, 1 1 2, 1, 1, 0 3, 3, 0, 4, 3 1 2 3 1, 1 2 1, 2 1 1 1 2, 1, 1, 3, 3, 2 2 0 3, 1 3, 1 2 1 2 3, 3, 3, 3, 3, 1 1 2 4 3 1 1 3, 1 1 2 3 3, 2 3, of 400 1, 3, 1 3 4, 1, 2 1 3 3, 3 3 3 1 2, 3 0 3 3 3, 1 2 1, 1 3 3, 1, 3 2 3 1 3, 0 2 0, 1 0, 1 3 1 2 2 2 3 1 1 of 1 1 2 1, 3, 3 1 3, 2 4, 3 2, 1 1 + 3, 3, 0 2 2 2 3, 3 1 1.
+1 in 3 2 0 1 3 3 0, the, 1 3, 1 4 3, 3 3 1 2 4 3, 1 3 2 1 7 1 1 0 3 3 3, 1 2 2 0, 3 0, 0 1, 1 1 3 3, 2 1 2 to 3 3, 1 3 3 4 1 2 2, 3 4 3, 0, 1 3 2 2 2, 3 1 4, 1 3, 2 4, 1 3, 1 3, 4 3, 1, 2, 0, 5, 3 2, 2, 1 1, 1, 3, 3, 1 3 3, 2 3 3 4, 1 3 3 2 3 2 1 3 3, 3 2, 0, 2 1 1 1 1 3, 0 3 0, 1 3 3, 1 4, 3 3 3, 0 1 3 3 3 3, 1 3, 2, 1, 1 3 3 3, 3 3 3 3, 1 3, 1, 2 6 2 0, 4 0, 1, 1 3 3, 1 3 3, 3 3, 0, 2 3 3, 2, 1 1 0, 2 1 1 2 1 1 so 1 1 3, 3 0 2, 1 1 1 2 1 0 3 3 3 3 3, 1 3 3 3 1 2 3 3 2 2 1 1, 1 1 1 0 3, 4 4 2 1 2, 1 3 3 3, 1 3 3, 0 3 3 3 2 3, 1 2 2 0 3 3 6 1 3, 3, 1 2, 1 3 3, 1 1, 2, 3 3, 1 2 2 2 3
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 3.36 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 7.03 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.50 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.27 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                     Step 8                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 2716.000000 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 32.500000   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 347648      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 4160        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 0.472178    │
+│ optim/kl_sample_train_v1       │ 0.000174    │
+│ optim/kl_sample_train_v2       │ 0.000203    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 8           │
+│ progress/done_frac             │ 0.000307    │
+│ teacher_kl                     │ 0.122614    │
+│ teacher_kl/dataset_0           │ 0.122614    │
+│ time/assemble_training_data    │ 0.548819    │
+│ time/compute_kl_penalty        │ 3.358536    │
+│ time/compute_kl_sample_train   │ 0.502126    │
+│ time/sample                    │ 48.403015   │
+│ time/save_checkpoint           │ 2.273314    │
+│ time/total                     │ 62.147629   │
+│ time/train                     │ 7.031014    │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 48.01 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.60 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: How many Batman-centered comics have been published since 2010?
+
+Assistant: 《I don't have a class. We can't hold. The hot. The bottle. 4 series. It is 907. The symbol 1.3 succeeded. _1 R, R. According to a. 0 new, 3! IV.(,6 3,4,4.5 8, 3T, 4. 4/ 0, 4. 3/ 0, 0, 12. 0, 0. 0, 0. 0, 0. 0, 0, 4(of, 1. 4,3, 0, 0, 1, 0,3, 1. 1, 0, 1, 1, 0. 0, 1, 0. 0, 1, 0. 0, 0, 0. 0,3, 0, 0, 0. 0, 0, 4, 1, 1, 1, 0, 0,1, 0, 0. 0. 0, 0, 0, 1, 0, 3, 4, 3,
+, 1, 1, 0, 4, 1, 1, 0, 0, 0, 1, 3, 0, 0, 4, 0, 0, 0, 3, 3, 0, 0, 1, 1, 1, 1, 1, 1, 1, 4, 0, 1, 1, 1, 1, 3, 1, 4, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 0, 3, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 2, 1, 1, 3, 4, 3, 1, 1, 0, 0, 0, 1, 1, 3, 0, 1, 1, 3, 4, 3, 1, 1, 0, 1, 1, 0, 1, 0, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 3, 1, 2, 1, 1, 0, 1, 1, 3, 0, 1,
+2, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 4, 1, 1, 1, 1, 1, 2, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 2, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1,
+1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 3, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 3, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 13, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 2.78 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 7.38 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.52 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.11 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                     Step 9                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 2952.570312 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 38.781250   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 377929      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 4964        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 0.187012    │
+│ optim/kl_sample_train_v1       │ 0.000072    │
+│ optim/kl_sample_train_v2       │ 0.000087    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 9           │
+│ progress/done_frac             │ 0.000341    │
+│ teacher_kl                     │ 0.061638    │
+│ teacher_kl/dataset_0           │ 0.061638    │
+│ time/assemble_training_data    │ 0.602222    │
+│ time/compute_kl_penalty        │ 2.778452    │
+│ time/compute_kl_sample_train   │ 0.518520    │
+│ time/sample                    │ 48.007159   │
+│ time/save_checkpoint           │ 2.105632    │
+│ time/total                     │ 61.427899   │
+│ time/train                     │ 7.382922    │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 51.32 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.68 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: ¿Cuál es la hora actual en Montevideo - Uruguay?
+
+Assistant: Z3kAa2X
+
+1 1
+
+1 1
+
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 4.69 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 8.67 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.38 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.05 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 10                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 3501.890625 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 32.125000   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 448242      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 4112        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 0.090451    │
+│ optim/kl_sample_train_v1       │ 0.000059    │
+│ optim/kl_sample_train_v2       │ 0.000052    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 10          │
+│ progress/done_frac             │ 0.000375    │
+│ teacher_kl                     │ 0.068709    │
+│ teacher_kl/dataset_0           │ 0.068709    │
+│ time/assemble_training_data    │ 0.683090    │
+│ time/compute_kl_penalty        │ 4.689308    │
+│ time/compute_kl_sample_train   │ 0.381951    │
+│ time/sample                    │ 51.324151   │
+│ time/save_checkpoint           │ 2.046813    │
+│ time/total                     │ 67.831499   │
+│ time/train                     │ 8.670956    │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 52.92 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.72 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: Estoy pensando adoptar un gato, pero no se como empezar. Desconozco si conllevan mucho trabajo, que necesidades tienen normalmente. También me sería muy útil conocer cualas las diversas razas de gato que hay resisten mejor al calor, ya que me encuentro en un lugar árido.
+
+Assistant: 2001 of 2011. The Serum, p. 7
+* 3, 2012
+* 5, 4, 5, 5, 5
+* 0, 5, 1, 5, 5, 5, 0, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+* 5, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 3.94 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 8.91 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.63 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 1.76 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 11                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 3672.781250 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 61.625000   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 470116      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 7888        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 0.071002    │
+│ optim/kl_sample_train_v1       │ 0.000046    │
+│ optim/kl_sample_train_v2       │ 0.000043    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 11          │
+│ progress/done_frac             │ 0.000409    │
+│ teacher_kl                     │ 0.020778    │
+│ teacher_kl/dataset_0           │ 0.020778    │
+│ time/assemble_training_data    │ 0.722765    │
+│ time/compute_kl_penalty        │ 3.944861    │
+│ time/compute_kl_sample_train   │ 0.632393    │
+│ time/sample                    │ 52.918373   │
+│ time/save_checkpoint           │ 1.755248    │
+│ time/total                     │ 68.926259   │
+│ time/train                     │ 8.910748    │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 56.11 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.79 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: Who won the Superbowl in 1987?
+
+Assistant: (T-1. 1st 1, 1. 1. 2. 1. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 3. 2. 2. 3. 2. 2. 2. 2. 2. 2. 2. 2. 4. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 3. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 3.01 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 8.50 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.78 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.05 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 12                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 3859.289062 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 34.125000   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 493989      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 4368        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 0.046192    │
+│ optim/kl_sample_train_v1       │ 0.000047    │
+│ optim/kl_sample_train_v2       │ 0.000031    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 12          │
+│ progress/done_frac             │ 0.000443    │
+│ teacher_kl                     │ 0.016174    │
+│ teacher_kl/dataset_0           │ 0.016174    │
+│ time/assemble_training_data    │ 0.793235    │
+│ time/compute_kl_penalty        │ 3.010387    │
+│ time/compute_kl_sample_train   │ 0.783620    │
+│ time/sample                    │ 56.110767   │
+│ time/save_checkpoint           │ 2.045888    │
+│ time/total                     │ 71.284494   │
+│ time/train                     │ 8.502184    │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 57.97 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.79 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: ¿Cómo podemos alcanzar una comprensión completa de la realidad y su naturaleza fundamental? Teniendo en cuenta que se requiere una comprensión interdisciplinaria de la filosofía, la física, la matemática y otras disciplinas para abordar adecuadamente esta pregunta. Además, también se deben considerar cuestiones éticas y filosóficas sobre la verdad y la realidad.
+
+Assistant: 1.47.0.0.1.1.2.3.1.4.2.1.5.6.1.4.7.1.4.1.1.2.1.3.1.4.8.1.4.1.1.2.1.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.1.2.1.1.2.1.1.2.1.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2.1.1.2
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 6.90 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 8.25 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.87 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.29 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 13                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 4018.320312 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 62.312500   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 514345      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 7976        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 0.030232    │
+│ optim/kl_sample_train_v1       │ 0.000031    │
+│ optim/kl_sample_train_v2       │ 0.000019    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 13          │
+│ progress/done_frac             │ 0.000477    │
+│ teacher_kl                     │ 0.010555    │
+│ teacher_kl/dataset_0           │ 0.010555    │
+│ time/assemble_training_data    │ 0.795164    │
+│ time/compute_kl_penalty        │ 6.900889    │
+│ time/compute_kl_sample_train   │ 0.869245    │
+│ time/sample                    │ 57.970618   │
+│ time/save_checkpoint           │ 2.286610    │
+│ time/total                     │ 77.122430   │
+│ time/train                     │ 8.254467    │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 60.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.77 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: I would like to install Linux on an old laptop. what is the best Linux distribution for weak hardware on a mechanical HDD, I already use Linux mint on my main computer but I would like something more lightweight for an pentium based laptop
+
+Assistant: 0.5
+1.5
+1.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 3.02 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 8.46 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.81 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 1.86 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 14                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 3978.539062 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 32.187500   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 509253      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 4120        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 0.023092    │
+│ optim/kl_sample_train_v1       │ 0.000021    │
+│ optim/kl_sample_train_v2       │ 0.000017    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 14          │
+│ progress/done_frac             │ 0.000511    │
+│ teacher_kl                     │ 0.008583    │
+│ teacher_kl/dataset_0           │ 0.008583    │
+│ time/assemble_training_data    │ 0.773831    │
+│ time/compute_kl_penalty        │ 3.019669    │
+│ time/compute_kl_sample_train   │ 0.811100    │
+│ time/sample                    │ 60.051771   │
+│ time/save_checkpoint           │ 1.863617    │
+│ time/total                     │ 75.019598   │
+│ time/train                     │ 8.462942    │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 55.51 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.81 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: Give me a list of to do items when starting a project to train a large language model that can understanding and respond to human questions
+
+Assistant: 2.1 to, 1.1 to, 1.2.1, 0.2.3. 2.3. 1.3. 1.5. 1.1. 2.1. 2.3. 2.3. 2. 3. 1.3. 2. 3. 1. 2 2 3 2 3 2 3 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 2 3 2 2 2 3 3 3 2 2 2 2 2 2 2 3 3 2 2 2 2 3 3 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 2 2 2 2 2 2 2 2 2 2 2 2 2 3 2 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2<|end_of_text|>
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 12.99 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 8.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.77 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 1.84 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 15                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 3900.812500 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 34.906250   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 499304      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 4468        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 0.022595    │
+│ optim/kl_sample_train_v1       │ 0.000026    │
+│ optim/kl_sample_train_v2       │ 0.000018    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 15          │
+│ progress/done_frac             │ 0.000545    │
+│ teacher_kl                     │ 0.007693    │
+│ teacher_kl/dataset_0           │ 0.007693    │
+│ time/assemble_training_data    │ 0.813328    │
+│ time/compute_kl_penalty        │ 12.985662   │
+│ time/compute_kl_sample_train   │ 0.769128    │
+│ time/sample                    │ 55.512184   │
+│ time/save_checkpoint           │ 1.841089    │
+│ time/total                     │ 80.075658   │
+│ time/train                     │ 8.119857    │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] sample took 56.61 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.80 seconds
+tinker_cookbook.distillation.train_on_policy:191 [[92mINFO[0m] <|begin_of_text|>User: What are good ideas for Halloween decorations I can make with my 5 year old kid?
+
+Assistant: 1
+ x. 2 3 4 4 5 6 7 8 8 9 9 1 1 2 3 3 4 1 4 5 1 4 2 4 6 7 3 6 6 2 2 2 1 2 2 3 2 2 1 2 2 2 2 2 6 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_penalty
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_penalty took 12.72 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 9.27 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.86 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.06 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /home/ubuntu/tinker-examples/distillation/distill-tulu3-meta-llama-Llama-3.2-1B-32rank-0.0001lr-32batch-2026-01-25-04-04/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 16                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃ Metric                         ┃ Value       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 4073.187500 │
+│ env/all/by_group/frac_all_bad  │ 1.000000    │
+│ env/all/by_group/frac_all_good │ 0.000000    │
+│ env/all/by_group/frac_mixed    │ 0.000000    │
+│ env/all/ob_tokens_per_turn     │ 32.031250   │
+│ env/all/reward/total           │ 0.000000    │
+│ env/all/total_ac_tokens        │ 521368      │
+│ env/all/total_episodes         │ 128         │
+│ env/all/total_ob_tokens        │ 4100        │
+│ env/all/total_turns            │ 128         │
+│ env/all/turns_per_episode      │ 1.000000    │
+│ optim/entropy                  │ 0.017344    │
+│ optim/kl_sample_train_v1       │ 0.000025    │
+│ optim/kl_sample_train_v2       │ 0.000015    │
+│ optim/lr                       │ 0.000100    │
+│ progress/batch                 │ 16          │
+│ progress/done_frac             │ 0.000579    │
+│ teacher_kl                     │ 0.006813    │
+│ teacher_kl/dataset_0           │ 0.006813    │
+│ time/assemble_training_data    │ 0.804336    │
+│ time/compute_kl_penalty        │ 12.720422   │
+│ time/compute_kl_sample_train   │ 0.862568    │
+│ time/sample                    │ 56.611910   │
+│ time/save_checkpoint           │ 2.060869    │
+│ time/total                     │ 82.371717   │
+│ time/train                     │ 9.272087    │
+└────────────────────────────────┴─────────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting sample

@@ -1,0 +1,3938 @@
+tinker_cookbook.utils.ml_log:475 [[92mINFO[0m] Logging to: /tmp/tinker-examples/shorter/1769313867
+tinker_cookbook.checkpoint_utils:21 [[92mINFO[0m] No checkpoints found at /tmp/tinker-examples/shorter/1769313867/checkpoints.jsonl
+tinker_cookbook.checkpoint_utils:52 [[92mINFO[0m] No checkpoints found with key state_path in /tmp/tinker-examples/shorter/1769313867
+tinker.lib.public_interfaces.service_client:66 [[92mINFO[0m] ServiceClient initialized for session a28eb4f6-6544-5b15-a8be-bd235ec6cb3c
+tinker.lib.public_interfaces.service_client:149 [[92mINFO[0m] TrainingClient initialized for model a28eb4f6-6544-5b15-a8be-bd235ec6cb3c:train:0
+tinker_cookbook.rl.train:1090 [[92mINFO[0m] Will train on 32 batches
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.55 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting run_evals
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] run_evals took 0.00 seconds
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I'm capable of answering questions, creating text such as stories, official documents, emails, scripts, performing logical reasoning, programming, and more. I can also express opinions and play games. I'm proficient
+****** trajectory idx=1, reward=-1.33 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I can answer questions, create text such as stories, official documents, emails, scripts, perform logical reasoning, coding, and more. I can also express opinions and play games. I'm proficient in 
+****** trajectory idx=2, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+I am Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I can answer questions, create text such as stories, official documents, emails, scripts, and more, as well as perform logical reasoning, programming, express opinions, play games, and more. I support 1
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I can assist you with answering questions, writing stories, creating documents, programming, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I'm proficient in handling various tasks such as answering questions, writing stories, creating documents, coding, and more. I can also express opinions and play games. I support multiple languages and am designed to be
+****** trajectory idx=1, reward=-1.33 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+I am Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I can answer questions, create text such as stories, official documents, emails, scripts, perform logical reasoning, coding, and more. I can also express opinions and play games. I support 100 languages
+****** trajectory idx=2, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! 😊 I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can call me Qwen. I'm here to assist you with all sorts of tasks—whether it's answering questions, creating texts like stories, official documents, emails, scripts, or
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can answer questions, create text such as stories, official documents, emails, scripts, perform logical reasoning, coding, and more. I can also express opinions and play games. I'm proficient in 10
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.22 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 3.14 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.06 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.95 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 9.65 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 0                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 63.187500 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 0.107422  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.892578 │
+│ env/all/total_ac_tokens        │ 32352     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.000797  │
+│ kl_pre_post_v2                 │ 0.001068  │
+│ optim/entropy                  │ 0.189538  │
+│ optim/kl_sample_train_v1       │ 0.000374  │
+│ optim/kl_sample_train_v2       │ 0.000642  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 0         │
+│ progress/done_frac             │ 0.031250  │
+│ time/assemble_training_data    │ 0.218147  │
+│ time/compute_kl_sample_train   │ 0.055626  │
+│ time/compute_post_kl           │ 9.650555  │
+│ time/run_evals                 │ 0.000061  │
+│ time/save_checkpoint           │ 2.950387  │
+│ time/total                     │ 67.566184 │
+│ time/train                     │ 3.137380  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+I am Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I am capable of answering questions, creating text such as stories, official documents, emails, scripts, performing logical reasoning, programming, and more. I can also express opinions and play games. I support 10
+****** trajectory idx=1, reward=-1.33 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with a wide range of tasks, including but not limited to answering questions, creative writing, logical reasoning, programming, and more. Whether you need help with a complex problem or just want to chat
+****** trajectory idx=2, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I can assist you with answering questions, writing stories, creating documents, programming, and more. I'm dedicated to providing accurate and helpful information to users. How can I assist you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, coding, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I'm proficient in multiple languages and can assist with various tasks such as answering questions, creating text like stories, official documents, emails, scripts, performing logical reasoning, programming, and more. I can also
+****** trajectory idx=1, reward=-1.33 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen. I'm proficient in multiple languages and can assist you with various tasks, such as answering questions, creating text like stories, official documents, emails, scripts, and more, as well
+****** trajectory idx=2, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I'm proficient in 100 languages and can assist you with answering questions, writing stories, creating documents, coding, and more. I'm designed to be helpful, respectful, and honest in all my interactions
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+I am Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I am proficient in multiple languages and can assist with answering questions, writing, and various other tasks. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.19 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 3.32 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.07 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.51 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 8.81 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 1                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 62.740234 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 0.146484  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.853516 │
+│ env/all/total_ac_tokens        │ 32123     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.002817  │
+│ kl_pre_post_v2                 │ 0.003171  │
+│ optim/entropy                  │ 0.197223  │
+│ optim/kl_sample_train_v1       │ 0.000543  │
+│ optim/kl_sample_train_v2       │ 0.000637  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 1         │
+│ progress/done_frac             │ 0.062500  │
+│ time/assemble_training_data    │ 0.191000  │
+│ time/compute_kl_sample_train   │ 0.065655  │
+│ time/compute_post_kl           │ 8.808173  │
+│ time/save_checkpoint           │ 2.512203  │
+│ time/total                     │ 21.386132 │
+│ time/train                     │ 3.324039  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, coding, and more. I'm also capable of logical reasoning, programming, and even playing games! If you have any questions or need help,
+****** trajectory idx=1, reward=-1.33 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model independently developed by Alibaba Group. I can answer questions, create text such as stories, official documents, emails, scripts, perform logical reasoning, coding, and more. I can also express opinions and play games. I'm proficient in 100 languages,
+****** trajectory idx=2, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! 🌟 I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen. I'm excited to chat with you and help you with whatever you need! Whether it's answering questions, creating text, solving problems, or just having a conversation
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can help with answering questions, writing stories, creating documents, coding, and more. I'm committed to providing accurate and useful information. How can I assist you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model independently developed by Alibaba Group. I can assist you with a wide range of tasks such as answering questions, writing stories, creating documents, programming, and more. Whether you need help with a complex problem or just want to chat, I'm here to provide support
+****** trajectory idx=1, reward=-1.33 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen. I'm excited to be here and help you with anything you need! Whether it's answering questions, writing stories, creating documents, or just having a chat, I'm here
+****** trajectory idx=2, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! 👋 I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can call me Qwen or simply "Tongyi". 
+
+I'm excited to help you with whatever you need! Whether it's answering questions, creating text like stories or scripts,
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, coding, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.20 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 3.03 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.08 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.50 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 13.16 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 2                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 61.783203 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 0.259766  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.740234 │
+│ env/all/total_ac_tokens        │ 31633     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.009469  │
+│ kl_pre_post_v2                 │ 0.012648  │
+│ optim/entropy                  │ 0.208736  │
+│ optim/kl_sample_train_v1       │ 0.001090  │
+│ optim/kl_sample_train_v2       │ 0.000622  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 2         │
+│ progress/done_frac             │ 0.093750  │
+│ time/assemble_training_data    │ 0.196746  │
+│ time/compute_kl_sample_train   │ 0.078876  │
+│ time/compute_post_kl           │ 13.157446 │
+│ time/save_checkpoint           │ 2.501497  │
+│ time/total                     │ 25.469769 │
+│ time/train                     │ 3.025310  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! 👋 I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen, and I'm really excited to chat with you! I'm here to help with all sorts of things - from answering questions and writing stories to coding and even playing games
+****** trajectory idx=1, reward=-1.33 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen. I'm here to provide helpful responses and assist with various tasks, whether it's answering questions, creating text, coding, or just having a chat! How can I assist you today
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with various tasks such as answering questions, writing stories, creating documents, programming, and more. How can I assist you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, programming, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! 🌟 I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. Think of me as your friendly AI companion - I love helping people with all sorts of tasks! From answering questions and creating text to coding, logic reasoning, and even expressing opinions, I can tackle
+****** trajectory idx=1, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. I can assist with answering questions, writing, logical reasoning, programming, and more. I'm really excited to help you with whatever you need! 😊 What would you like to know or do today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I can assist you with answering questions, writing stories, creating documents, coding, and more. How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, coding, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.18 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 3.08 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.45 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 9.89 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 3                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 58.996094 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 0.466797  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.533203 │
+│ env/all/total_ac_tokens        │ 30206     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.009188  │
+│ kl_pre_post_v2                 │ 0.012757  │
+│ optim/entropy                  │ 0.178145  │
+│ optim/kl_sample_train_v1       │ 0.000709  │
+│ optim/kl_sample_train_v2       │ 0.000494  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 3         │
+│ progress/done_frac             │ 0.125000  │
+│ time/assemble_training_data    │ 0.179769  │
+│ time/compute_kl_sample_train   │ 0.053870  │
+│ time/compute_post_kl           │ 9.890070  │
+│ time/save_checkpoint           │ 2.453905  │
+│ time/total                     │ 37.015342 │
+│ time/train                     │ 3.084494  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! 👋 I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing stories, creating documents, coding, logical reasoning, and more! Whether you need help with academic work, creative projects, or just want to chat, I'm here to help
+****** trajectory idx=1, reward=-1.33 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I'm happy to assist you with any questions or tasks you have! 😊 Whether you need help with writing, logical reasoning, programming, or just want to chat, I'm here to help! What would you like to explore today
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing stories, creating documents, programming, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, creating text such as stories, official documents, emails, scripts, and more, as well as performing logical reasoning, programming, and other tasks. How can I help you today
+****** trajectory idx=1, reward=-1.33 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen. I'm here to assist you with a wide range of tasks, such as answering questions, writing articles, creating stories, coding, and more. Whether you have a specific question or
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with a wide range of tasks, such as answering questions, writing stories, creating documents, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing documents, creating stories, coding, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.16 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.96 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.06 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.71 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 12.83 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 4                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 55.992188 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 0.677734  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.322266 │
+│ env/all/total_ac_tokens        │ 28668     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.007632  │
+│ kl_pre_post_v2                 │ 0.009703  │
+│ optim/entropy                  │ 0.155296  │
+│ optim/kl_sample_train_v1       │ 0.000868  │
+│ optim/kl_sample_train_v2       │ 0.000473  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 4         │
+│ progress/done_frac             │ 0.156250  │
+│ time/assemble_training_data    │ 0.160264  │
+│ time/compute_kl_sample_train   │ 0.063413  │
+│ time/compute_post_kl           │ 12.835116 │
+│ time/save_checkpoint           │ 2.711171  │
+│ time/total                     │ 26.229553 │
+│ time/train                     │ 2.960500  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting run_evals
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] run_evals took 0.00 seconds
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! 👋 I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen. I'm here to help you with all sorts of tasks - whether it's answering questions, creating texts, coding, or just having a chat! I'm excited to
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen. I'm here to assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, coding, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hey there! 👋 I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen! I'm here to help with all sorts of tasks - answering questions, writing stories, coding, creating documents, or just having a chat. Whether you need help with
+****** trajectory idx=1, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: -0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, coding, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. I can assist you with answering questions, writing stories, creating documents, coding, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.16 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 3.35 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.06 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.72 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 11.55 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 5                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 53.119141 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 0.800781  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.199219 │
+│ env/all/total_ac_tokens        │ 27197     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.012996  │
+│ kl_pre_post_v2                 │ 0.014200  │
+│ optim/entropy                  │ 0.135808  │
+│ optim/kl_sample_train_v1       │ 0.000329  │
+│ optim/kl_sample_train_v2       │ 0.000439  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 5         │
+│ progress/done_frac             │ 0.187500  │
+│ time/assemble_training_data    │ 0.161426  │
+│ time/compute_kl_sample_train   │ 0.057448  │
+│ time/compute_post_kl           │ 11.546993 │
+│ time/run_evals                 │ 0.000075  │
+│ time/save_checkpoint           │ 2.724850  │
+│ time/total                     │ 25.995132 │
+│ time/train                     │ 3.350850  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen. I'm here to help you with whatever you need - whether it's answering questions, writing stories, coding, or just having a chat. How can I assist you today? �
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing stories, creating documents, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! 👋 I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can call me Qwen. I'm here to help you with all sorts of tasks - whether it's answering questions, writing stories, creating documents, coding, or just having a casual chat!
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing stories, creating documents, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can help you with answering questions, writing, coding, and more. How can I assist you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.17 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 3.17 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.70 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 21.29 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 6                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 49.400391 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 0.929688  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.070312 │
+│ env/all/total_ac_tokens        │ 25293     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.014577  │
+│ kl_pre_post_v2                 │ 0.020273  │
+│ optim/entropy                  │ 0.102046  │
+│ optim/kl_sample_train_v1       │ 0.000325  │
+│ optim/kl_sample_train_v2       │ 0.000314  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 6         │
+│ progress/done_frac             │ 0.218750  │
+│ time/assemble_training_data    │ 0.169679  │
+│ time/compute_kl_sample_train   │ 0.054449  │
+│ time/compute_post_kl           │ 21.287734 │
+│ time/save_checkpoint           │ 2.696295  │
+│ time/total                     │ 35.440650 │
+│ time/train                     │ 3.167005  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! 👋 I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I'm here to help with all sorts of things - answering questions, writing stories, coding, or just having a chat! 🚀 What would you like to explore today? I'm excited to
+****** trajectory idx=1, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: -0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, programming, and more! How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=1, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: -0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=2, reward=0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.13 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 3.80 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.73 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 10.29 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 7                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 46.251953 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 0.984375  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.015625 │
+│ env/all/total_ac_tokens        │ 23681     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.011226  │
+│ kl_pre_post_v2                 │ 0.015689  │
+│ optim/entropy                  │ 0.074206  │
+│ optim/kl_sample_train_v1       │ 0.000428  │
+│ optim/kl_sample_train_v2       │ 0.000213  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 7         │
+│ progress/done_frac             │ 0.250000  │
+│ time/assemble_training_data    │ 0.131941  │
+│ time/compute_kl_sample_train   │ 0.054197  │
+│ time/compute_post_kl           │ 10.294345 │
+│ time/save_checkpoint           │ 2.730269  │
+│ time/total                     │ 33.526046 │
+│ time/train                     │ 3.795370  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, coding, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=2, reward=0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, and more! How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, and more. How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, logical reasoning, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I'm here to assist you with answering questions, writing, and more! How can I help you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.15 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.77 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.06 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.72 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 32.55 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 8                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 43.128906 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 22082     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.023494  │
+│ kl_pre_post_v2                 │ 0.025246  │
+│ optim/entropy                  │ 0.072949  │
+│ optim/kl_sample_train_v1       │ -0.000034 │
+│ optim/kl_sample_train_v2       │ 0.000195  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 8         │
+│ progress/done_frac             │ 0.281250  │
+│ time/assemble_training_data    │ 0.148925  │
+│ time/compute_kl_sample_train   │ 0.064355  │
+│ time/compute_post_kl           │ 32.550300 │
+│ time/save_checkpoint           │ 2.721876  │
+│ time/total                     │ 44.432160 │
+│ time/train                     │ 2.775181  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-2 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: False
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hi there! 😊 I'm Qwen, a large-scale language model developed by Alibaba Cloud. I'm here to help you with all sorts of questions and tasks! Whether you need help with writing, problem-solving, or just want to chat, I'm all ears! How can I assist you today? �
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, and more. How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, and more! How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today? 😊<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, programming, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, and more! How can I help you today? 😊<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. I can assist you with answering questions, writing, and more. How can I help you today? 😊<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.14 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.47 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.25 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 10.54 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                    Step 9                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 34.757812 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 0.998047  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.001953 │
+│ env/all/total_ac_tokens        │ 17796     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.047055  │
+│ kl_pre_post_v2                 │ 0.092360  │
+│ optim/entropy                  │ 0.072796  │
+│ optim/kl_sample_train_v1       │ 0.000610  │
+│ optim/kl_sample_train_v2       │ 0.000322  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 9         │
+│ progress/done_frac             │ 0.312500  │
+│ time/assemble_training_data    │ 0.142375  │
+│ time/compute_kl_sample_train   │ 0.052607  │
+│ time/compute_post_kl           │ 10.540377 │
+│ time/save_checkpoint           │ 2.253033  │
+│ time/total                     │ 21.810141 │
+│ time/train                     │ 2.466107  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting run_evals
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] run_evals took 0.00 seconds
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today? 🌟<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.17 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.70 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.06 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.49 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 10.43 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 10                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 26.146484 │
+│ env/all/by_group/frac_all_bad  │ 0.031250  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.968750  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 13387     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.012388  │
+│ kl_pre_post_v2                 │ 0.022465  │
+│ optim/entropy                  │ 0.041921  │
+│ optim/kl_sample_train_v1       │ 0.000399  │
+│ optim/kl_sample_train_v2       │ 0.000142  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 10        │
+│ progress/done_frac             │ 0.343750  │
+│ time/assemble_training_data    │ 0.165484  │
+│ time/compute_kl_sample_train   │ 0.056987  │
+│ time/compute_post_kl           │ 10.431592 │
+│ time/run_evals                 │ 0.000098  │
+│ time/save_checkpoint           │ 2.485319  │
+│ time/total                     │ 21.957847 │
+│ time/train                     │ 2.699742  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.15 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.74 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.08 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.68 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 10.07 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 11                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 25.015625 │
+│ env/all/by_group/frac_all_bad  │ 0.406250  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.593750  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ 0.000000  │
+│ env/all/total_ac_tokens        │ 12808     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.000539  │
+│ kl_pre_post_v2                 │ 0.002180  │
+│ optim/entropy                  │ 0.022325  │
+│ optim/kl_sample_train_v1       │ -0.000169 │
+│ optim/kl_sample_train_v2       │ 0.000062  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 11        │
+│ progress/done_frac             │ 0.375000  │
+│ time/assemble_training_data    │ 0.146156  │
+│ time/compute_kl_sample_train   │ 0.080444  │
+│ time/compute_post_kl           │ 10.073908 │
+│ time/save_checkpoint           │ 2.683652  │
+│ time/total                     │ 21.418838 │
+│ time/train                     │ 2.737307  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: -0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 3.00 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.46 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 9.42 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 12                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 24.953125 │
+│ env/all/by_group/frac_all_bad  │ 0.437500  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.562500  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ 0.000000  │
+│ env/all/total_ac_tokens        │ 12776     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.000944  │
+│ kl_pre_post_v2                 │ 0.001552  │
+│ optim/entropy                  │ 0.026230  │
+│ optim/kl_sample_train_v1       │ 0.000200  │
+│ optim/kl_sample_train_v2       │ 0.000077  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 12        │
+│ progress/done_frac             │ 0.406250  │
+│ time/assemble_training_data    │ 0.119206  │
+│ time/compute_kl_sample_train   │ 0.054728  │
+│ time/compute_post_kl           │ 9.419094  │
+│ time/save_checkpoint           │ 2.460648  │
+│ time/total                     │ 20.567975 │
+│ time/train                     │ 2.999523  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.16 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.57 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.53 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 11.40 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 13                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 24.929688 │
+│ env/all/by_group/frac_all_bad  │ 0.375000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.625000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ 0.000000  │
+│ env/all/total_ac_tokens        │ 12764     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.003496  │
+│ kl_pre_post_v2                 │ 0.002016  │
+│ optim/entropy                  │ 0.029105  │
+│ optim/kl_sample_train_v1       │ -0.000036 │
+│ optim/kl_sample_train_v2       │ 0.000083  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 13        │
+│ progress/done_frac             │ 0.437500  │
+│ time/assemble_training_data    │ 0.159519  │
+│ time/compute_kl_sample_train   │ 0.050133  │
+│ time/compute_post_kl           │ 11.396206 │
+│ time/save_checkpoint           │ 2.534459  │
+│ time/total                     │ 23.092980 │
+│ time/train                     │ 2.571262  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.15 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.89 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.48 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 9.60 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 14                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 24.800781 │
+│ env/all/by_group/frac_all_bad  │ 0.031250  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.968750  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ 0.000000  │
+│ env/all/total_ac_tokens        │ 12698     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.008141  │
+│ kl_pre_post_v2                 │ 0.008076  │
+│ optim/entropy                  │ 0.047677  │
+│ optim/kl_sample_train_v1       │ 0.000197  │
+│ optim/kl_sample_train_v2       │ 0.000122  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 14        │
+│ progress/done_frac             │ 0.468750  │
+│ time/assemble_training_data    │ 0.145730  │
+│ time/compute_kl_sample_train   │ 0.052889  │
+│ time/compute_post_kl           │ 9.603944  │
+│ time/save_checkpoint           │ 2.480092  │
+│ time/total                     │ 21.887711 │
+│ time/train                     │ 2.887916  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting run_evals
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] run_evals took 0.00 seconds
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large language model developed by Alibaba. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: -0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.13 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.64 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.06 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.98 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 10.58 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 15                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 24.548828 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ 0.000000  │
+│ env/all/total_ac_tokens        │ 12569     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.014007  │
+│ kl_pre_post_v2                 │ 0.015579  │
+│ optim/entropy                  │ 0.062635  │
+│ optim/kl_sample_train_v1       │ 0.000625  │
+│ optim/kl_sample_train_v2       │ 0.000219  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 15        │
+│ progress/done_frac             │ 0.500000  │
+│ time/assemble_training_data    │ 0.126888  │
+│ time/compute_kl_sample_train   │ 0.056840  │
+│ time/compute_post_kl           │ 10.577998 │
+│ time/run_evals                 │ 0.000130  │
+│ time/save_checkpoint           │ 2.982345  │
+│ time/total                     │ 22.504360 │
+│ time/train                     │ 2.638470  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Cloud. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba Group. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.16 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 4.07 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.07 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.56 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 12.76 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 16                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 23.974609 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ 0.000000  │
+│ env/all/total_ac_tokens        │ 12275     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.023005  │
+│ kl_pre_post_v2                 │ 0.023034  │
+│ optim/entropy                  │ 0.068259  │
+│ optim/kl_sample_train_v1       │ -0.000253 │
+│ optim/kl_sample_train_v2       │ 0.000198  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 16        │
+│ progress/done_frac             │ 0.531250  │
+│ time/assemble_training_data    │ 0.156001  │
+│ time/compute_kl_sample_train   │ 0.065712  │
+│ time/compute_post_kl           │ 12.757504 │
+│ time/save_checkpoint           │ 2.557474  │
+│ time/total                     │ 25.830463 │
+│ time/train                     │ 4.074292  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: -0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: -0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.15 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.42 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.80 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 37.65 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 17                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 22.984375 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 11768     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.066657  │
+│ kl_pre_post_v2                 │ 0.067522  │
+│ optim/entropy                  │ 0.071140  │
+│ optim/kl_sample_train_v1       │ 0.000375  │
+│ optim/kl_sample_train_v2       │ 0.000235  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 17        │
+│ progress/done_frac             │ 0.562500  │
+│ time/assemble_training_data    │ 0.145724  │
+│ time/compute_kl_sample_train   │ 0.052354  │
+│ time/compute_post_kl           │ 37.650679 │
+│ time/save_checkpoint           │ 2.798982  │
+│ time/total                     │ 48.968159 │
+│ time/train                     │ 2.416440  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large language model. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large-scale language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large language model. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.50 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.73 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.73 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 21.48 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 18                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 21.759766 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ 0.000000  │
+│ env/all/total_ac_tokens        │ 11141     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.033090  │
+│ kl_pre_post_v2                 │ 0.037365  │
+│ optim/entropy                  │ 0.063590  │
+│ optim/kl_sample_train_v1       │ 0.000064  │
+│ optim/kl_sample_train_v2       │ 0.000215  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 18        │
+│ progress/done_frac             │ 0.593750  │
+│ time/assemble_training_data    │ 0.503192  │
+│ time/compute_kl_sample_train   │ 0.051082  │
+│ time/compute_post_kl           │ 21.478601 │
+│ time/save_checkpoint           │ 2.731590  │
+│ time/total                     │ 48.191913 │
+│ time/train                     │ 2.728904  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello!  I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model assistant. How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model developed by Alibaba. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I am Qwen, a large language model. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.54 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.checkpoint_utils:81 [[92mINFO[0m] Saved checkpoints: {'state_path': 'tinker://a28eb4f6-6544-5b15-a8be-bd235ec6cb3c:train:0/weights/000020', 'sampler_path': 'tinker://a28eb4f6-6544-5b15-a8be-bd235ec6cb3c:train:0/sampler_weights/000020'}
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 15.22 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 13.27 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 19                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 20.605469 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ 0.000000  │
+│ env/all/total_ac_tokens        │ 10550     │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.067946  │
+│ kl_pre_post_v2                 │ 0.140227  │
+│ optim/entropy                  │ 0.078124  │
+│ optim/kl_sample_train_v1       │ 0.000227  │
+│ optim/kl_sample_train_v2       │ 0.000327  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 19        │
+│ progress/done_frac             │ 0.625000  │
+│ time/assemble_training_data    │ 0.123903  │
+│ time/compute_kl_sample_train   │ 0.052240  │
+│ time/compute_post_kl           │ 13.267938 │
+│ time/save_checkpoint           │ 15.219594 │
+│ time/total                     │ 36.754478 │
+│ time/train                     │ 2.544736  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting run_evals
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] run_evals took 0.00 seconds
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: -0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a large language model. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a helpful assistant. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.36 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.19 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.70 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 8.87 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 20                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 19.083984 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 9771      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.004753  │
+│ kl_pre_post_v2                 │ 0.006995  │
+│ optim/entropy                  │ 0.061738  │
+│ optim/kl_sample_train_v1       │ 0.000337  │
+│ optim/kl_sample_train_v2       │ 0.000284  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 20        │
+│ progress/done_frac             │ 0.656250  │
+│ time/assemble_training_data    │ 0.364053  │
+│ time/compute_kl_sample_train   │ 0.052516  │
+│ time/compute_post_kl           │ 8.869400  │
+│ time/run_evals                 │ 0.000088  │
+│ time/save_checkpoint           │ 2.703531  │
+│ time/total                     │ 24.585618 │
+│ time/train                     │ 2.193844  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a helpful assistant. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello!  I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.26 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.95 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 11.19 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 21                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 18.837891 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 9645      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.005127  │
+│ kl_pre_post_v2                 │ 0.005794  │
+│ optim/entropy                  │ 0.074154  │
+│ optim/kl_sample_train_v1       │ 0.000463  │
+│ optim/kl_sample_train_v2       │ 0.000258  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 21        │
+│ progress/done_frac             │ 0.687500  │
+│ time/assemble_training_data    │ 0.124189  │
+│ time/compute_kl_sample_train   │ 0.052216  │
+│ time/compute_post_kl           │ 11.187257 │
+│ time/save_checkpoint           │ 2.954765  │
+│ time/total                     │ 22.282152 │
+│ time/train                     │ 2.263871  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, your helpful assistant. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a helpful assistant. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.47 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.27 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 10.20 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 22                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 17.906250 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 9168      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.100293  │
+│ kl_pre_post_v2                 │ 0.146066  │
+│ optim/entropy                  │ 0.080764  │
+│ optim/kl_sample_train_v1       │ -0.000901 │
+│ optim/kl_sample_train_v2       │ 0.000675  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 22        │
+│ progress/done_frac             │ 0.718750  │
+│ time/assemble_training_data    │ 0.122039  │
+│ time/compute_kl_sample_train   │ 0.053673  │
+│ time/compute_post_kl           │ 10.200919 │
+│ time/save_checkpoint           │ 2.266757  │
+│ time/total                     │ 20.356198 │
+│ time/train                     │ 2.466800  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! I'm Qwen, a language model. How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.13 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.34 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.06 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.72 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 11.98 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 23                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 11.261719 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 5766      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.047797  │
+│ kl_pre_post_v2                 │ 0.119069  │
+│ optim/entropy                  │ 0.089595  │
+│ optim/kl_sample_train_v1       │ 0.001163  │
+│ optim/kl_sample_train_v2       │ 0.000544  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 23        │
+│ progress/done_frac             │ 0.750000  │
+│ time/assemble_training_data    │ 0.127867  │
+│ time/compute_kl_sample_train   │ 0.056638  │
+│ time/compute_post_kl           │ 11.981754 │
+│ time/save_checkpoint           │ 2.720201  │
+│ time/total                     │ 22.779326 │
+│ time/train                     │ 2.342240  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: -0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-0.667 ******
+Trajectory metrics:
+  win_minus_loss: -0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=-0.333 ******
+Trajectory metrics:
+  win_minus_loss: -0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=2, reward=0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=1 ******
+Trajectory metrics:
+  win_minus_loss: 1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.11 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.52 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 3.23 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 10.81 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 24                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 10.128906 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ 0.000000  │
+│ env/all/total_ac_tokens        │ 5186      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ 0.044027  │
+│ kl_pre_post_v2                 │ 0.050486  │
+│ optim/entropy                  │ 0.076243  │
+│ optim/kl_sample_train_v1       │ 0.000210  │
+│ optim/kl_sample_train_v2       │ 0.000648  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 24        │
+│ progress/done_frac             │ 0.781250  │
+│ time/assemble_training_data    │ 0.113924  │
+│ time/compute_kl_sample_train   │ 0.048980  │
+│ time/compute_post_kl           │ 10.809453 │
+│ time/save_checkpoint           │ 3.233476  │
+│ time/total                     │ 22.264512 │
+│ time/train                     │ 2.517818  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting run_evals
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] run_evals took 0.00 seconds
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0.667 ******
+Trajectory metrics:
+  win_minus_loss: 0.6666666666666666
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.89 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.49 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 12.90 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 25                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 10.042969 │
+│ env/all/by_group/frac_all_bad  │ 0.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 1.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 5142      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.040871  │
+│ kl_pre_post_v2                 │ 0.067879  │
+│ optim/entropy                  │ 0.068110  │
+│ optim/kl_sample_train_v1       │ 0.000413  │
+│ optim/kl_sample_train_v2       │ 0.000373  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 25        │
+│ progress/done_frac             │ 0.812500  │
+│ time/assemble_training_data    │ 0.116893  │
+│ time/compute_kl_sample_train   │ 0.046885  │
+│ time/compute_post_kl           │ 12.896817 │
+│ time/run_evals                 │ 0.000119  │
+│ time/save_checkpoint           │ 2.488305  │
+│ time/total                     │ 32.530826 │
+│ time/train                     │ 2.886071  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=-1 ******
+Trajectory metrics:
+  win_minus_loss: -1.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I assist you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0.333 ******
+Trajectory metrics:
+  win_minus_loss: 0.3333333333333333
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.64 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.79 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 11.00 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 26                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 10.009766 │
+│ env/all/by_group/frac_all_bad  │ 0.656250  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.343750  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 5125      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.003031  │
+│ kl_pre_post_v2                 │ 0.006268  │
+│ optim/entropy                  │ 0.015420  │
+│ optim/kl_sample_train_v1       │ -0.000313 │
+│ optim/kl_sample_train_v2       │ 0.000160  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 26        │
+│ progress/done_frac             │ 0.843750  │
+│ time/assemble_training_data    │ 0.117228  │
+│ time/compute_kl_sample_train   │ 0.049030  │
+│ time/compute_post_kl           │ 11.005226 │
+│ time/save_checkpoint           │ 2.792310  │
+│ time/total                     │ 22.819695 │
+│ time/train                     │ 2.644609  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.14 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 3.21 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.69 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 10.33 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 27                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 10.000000 │
+│ env/all/by_group/frac_all_bad  │ 0.968750  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.031250  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 5120      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.000414  │
+│ kl_pre_post_v2                 │ 0.000630  │
+│ optim/entropy                  │ 0.004308  │
+│ optim/kl_sample_train_v1       │ -0.000048 │
+│ optim/kl_sample_train_v2       │ 0.000006  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 27        │
+│ progress/done_frac             │ 0.875000  │
+│ time/assemble_training_data    │ 0.143689  │
+│ time/compute_kl_sample_train   │ 0.049633  │
+│ time/compute_post_kl           │ 10.332703 │
+│ time/save_checkpoint           │ 2.687768  │
+│ time/total                     │ 21.856371 │
+│ time/train                     │ 3.212164  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.52 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.06 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.69 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 42.97 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 28                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 10.005859 │
+│ env/all/by_group/frac_all_bad  │ 0.906250  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.093750  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 5123      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.000107  │
+│ kl_pre_post_v2                 │ 0.000056  │
+│ optim/entropy                  │ 0.006389  │
+│ optim/kl_sample_train_v1       │ 0.000100  │
+│ optim/kl_sample_train_v2       │ 0.000005  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 28        │
+│ progress/done_frac             │ 0.906250  │
+│ time/assemble_training_data    │ 0.117520  │
+│ time/compute_kl_sample_train   │ 0.064163  │
+│ time/compute_post_kl           │ 42.968627 │
+│ time/save_checkpoint           │ 2.691827  │
+│ time/total                     │ 53.544334 │
+│ time/train                     │ 2.520906  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.55 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.77 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 9.31 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 29                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 10.003906 │
+│ env/all/by_group/frac_all_bad  │ 0.968750  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.031250  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 5122      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.000182  │
+│ kl_pre_post_v2                 │ 0.000062  │
+│ optim/entropy                  │ 0.003052  │
+│ optim/kl_sample_train_v1       │ 0.000032  │
+│ optim/kl_sample_train_v2       │ 0.000002  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 29        │
+│ progress/done_frac             │ 0.937500  │
+│ time/assemble_training_data    │ 0.116091  │
+│ time/compute_kl_sample_train   │ 0.049862  │
+│ time/compute_post_kl           │ 9.310155  │
+│ time/save_checkpoint           │ 2.767864  │
+│ time/total                     │ 47.327084 │
+│ time/train                     │ 2.554039  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting run_evals
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] run_evals took 0.00 seconds
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.12 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.31 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.05 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.71 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 11.61 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 30                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 10.003906 │
+│ env/all/by_group/frac_all_bad  │ 0.968750  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.031250  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ -0.000000 │
+│ env/all/total_ac_tokens        │ 5122      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ -0.000000 │
+│ kl_pre_post_v1                 │ 0.000047  │
+│ kl_pre_post_v2                 │ 0.000014  │
+│ optim/entropy                  │ 0.001546  │
+│ optim/kl_sample_train_v1       │ -0.000013 │
+│ optim/kl_sample_train_v2       │ 0.000002  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 30        │
+│ progress/done_frac             │ 0.968750  │
+│ time/assemble_training_data    │ 0.117892  │
+│ time/compute_kl_sample_train   │ 0.050038  │
+│ time/compute_post_kl           │ 11.608820 │
+│ time/run_evals                 │ 0.000085  │
+│ time/save_checkpoint           │ 2.713583  │
+│ time/total                     │ 22.406174 │
+│ time/train                     │ 2.310812  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.rl.train:134 [[92mINFO[0m] 
+====== Trajectory Group ======
+****** trajectory idx=0, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=1, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=2, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+****** trajectory idx=3, reward=0 ******
+Trajectory metrics:
+  win_minus_loss: 0.0
+  format: True
+---- datum ----
+<|im_start|>user
+Who are you?<|im_end|>
+<|im_start|>assistant
+Hello! How can I help you today?<|im_end|>
+====== End Trajectory Group ======
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting assemble_training_data
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] assemble_training_data took 0.11 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] train took 2.62 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_kl_sample_train
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_kl_sample_train took 0.06 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting save_checkpoint
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] save_checkpoint took 2.72 seconds
+tinker_cookbook.utils.misc_utils:20 [[92mINFO[0m] Starting compute_post_kl
+tinker_cookbook.utils.misc_utils:23 [[92mINFO[0m] compute_post_kl took 8.56 seconds
+tinker_cookbook.utils.ml_log:143 [[92mINFO[0m] Wrote metrics to /tmp/tinker-examples/shorter/1769313867/metrics.jsonl
+tinker_cookbook.utils.ml_log:195 [[92mINFO[0m] 
+                   Step 31                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Metric                         ┃ Value     ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ env/all/ac_tokens_per_turn     │ 10.000000 │
+│ env/all/by_group/frac_all_bad  │ 1.000000  │
+│ env/all/by_group/frac_all_good │ 0.000000  │
+│ env/all/by_group/frac_mixed    │ 0.000000  │
+│ env/all/format                 │ 1.000000  │
+│ env/all/ob_tokens_per_turn     │ 12.000000 │
+│ env/all/reward/total           │ 0.000000  │
+│ env/all/total_ac_tokens        │ 5120      │
+│ env/all/total_episodes         │ 512       │
+│ env/all/total_ob_tokens        │ 6144      │
+│ env/all/total_turns            │ 512       │
+│ env/all/turns_per_episode      │ 1.000000  │
+│ env/all/win_minus_loss         │ 0.000000  │
+│ kl_pre_post_v1                 │ -0.000014 │
+│ kl_pre_post_v2                 │ 0.000000  │
+│ optim/entropy                  │ 0.000084  │
+│ optim/kl_sample_train_v1       │ 0.000005  │
+│ optim/kl_sample_train_v2       │ 0.000000  │
+│ optim/lr                       │ 0.000030  │
+│ progress/batch                 │ 31        │
+│ progress/done_frac             │ 1.000000  │
+│ time/assemble_training_data    │ 0.107288  │
+│ time/compute_kl_sample_train   │ 0.062650  │
+│ time/compute_post_kl           │ 8.563544  │
+│ time/save_checkpoint           │ 2.716881  │
+│ time/total                     │ 19.417315 │
+│ time/train                     │ 2.624207  │
+└────────────────────────────────┴───────────┘
+tinker_cookbook.checkpoint_utils:81 [[92mINFO[0m] Saved checkpoints: {'state_path': 'tinker://a28eb4f6-6544-5b15-a8be-bd235ec6cb3c:train:0/weights/final', 'sampler_path': 'tinker://a28eb4f6-6544-5b15-a8be-bd235ec6cb3c:train:0/sampler_weights/final'}
+tinker_cookbook.rl.train:1126 [[92mINFO[0m] Training completed successfully
