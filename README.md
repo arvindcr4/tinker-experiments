@@ -28,8 +28,12 @@ tinker-experiments/
 │   ├── 04_distillation_off_policy.ipynb
 │   ├── 05_distillation_on_policy.ipynb
 │   └── 06_math_rl_gsm8k.ipynb
+├── results/                      # Training metrics (JSONL)
+│   ├── arithmetic_metrics.jsonl
+│   ├── distillation_off_metrics.jsonl
+│   └── distillation_on_metrics.jsonl
+├── logs/                         # Training output logs
 ├── create_presentation.py        # PowerPoint generator
-├── run_tinker.sh                 # Training launcher script
 ├── Tinker_RL_Demo.pptx          # Presentation for demo
 └── README.md
 ```
